@@ -60,4 +60,30 @@ public class ViolationsManager
 			e.printStackTrace();
 		}
 	}
+	
+	public void write_graph()
+	{
+		FileOutputStream l_output_stream;
+		try {
+			l_output_stream = new FileOutputStream("/home/local/CEDROFINANCES/carlos.sabino/Masters/graph.dot");
+			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(new OutputStreamWriter(l_output_stream));
+			l_bufferBufferedWriter.write("digraph G {\n");
+			for(Entry<String,  List<ViolationInfo>> l_entry : m_info.entrySet())
+			{
+				for(ViolationInfo l_info : l_entry.getValue())
+				{
+					if(!l_info.hasNullComponents() && !l_info.equals("unchanged"))
+						l_bufferBufferedWriter.write(l_info.m_origin_class.replaceAll("\\.", "_") + " -> " + l_info.m_destiny_class.replaceAll("\\.", "_") + ";\n");
+				}
+			}
+			l_bufferBufferedWriter.write("}\n");
+			l_bufferBufferedWriter.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

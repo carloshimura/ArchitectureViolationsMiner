@@ -11,7 +11,7 @@ public class Main {
 		l_manager.add_file("3", 
 				"/home/local/CEDROFINANCES/carlos.sabino/Masters/violations/violations/ant_week_016_rev_505861_date_2007-02-11.txt");
 		
-		l_manager.write_transactions();
+		l_manager.write_graph();
 	}
 
 }
