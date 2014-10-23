@@ -143,6 +143,7 @@ public class ViolationsManager
 				
 				if(!l_found)
 				{
+					l_viol_pairs_list.add(l_pair);
 					if(l_pairs_list.containsKey(l_info.m_origin_class))
 					{
 						++(l_pairs_list.get(l_info.m_origin_class).m_outdegree);
