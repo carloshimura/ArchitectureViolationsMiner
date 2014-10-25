@@ -16,7 +16,7 @@ public class ViolationPair {
 	
 	public boolean equals(ViolationPair pair)
 	{
-		if(m_origin.equals(pair.m_origin) && m_destiny.equals(pair.m_destiny))
+		if(m_origin.equals(pair.m_origin) && m_destiny.equals(pair.m_destiny) && m_info.m_version.equals(pair.m_info.m_version))
 			return true;
 		return false;
 	}
