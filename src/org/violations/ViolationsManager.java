@@ -10,9 +10,11 @@ import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.SortedMap;
 import java.util.Map.Entry;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class ViolationsManager {
 	private Map<String, String> m_files;
@@ -40,7 +42,7 @@ public class ViolationsManager {
 		FileOutputStream l_output_stream;
 		try {
 			l_output_stream = new FileOutputStream(
-					"/ArchitectureViolationsMiner/trunk/data/results/transactions_classes.csv");
+					Main.PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/results/transactions_classes.csv");
 			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
 					new OutputStreamWriter(l_output_stream));
 			l_bufferBufferedWriter.write("Origem, Destino, tipo, versao\n");
@@ -85,7 +87,7 @@ public class ViolationsManager {
 		FileOutputStream l_output_stream;
 		try {
 			l_output_stream = new FileOutputStream(
-					"/ArchitectureViolationsMiner/trunk/data/results/graph_full.dot");
+					Main.PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/results/graph_full.dot");
 			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
 					new OutputStreamWriter(l_output_stream));
 			l_bufferBufferedWriter.write("digraph G {\n");
@@ -123,7 +125,9 @@ public class ViolationsManager {
 	}
 
 	void write_degree() {
-		String l_header = "Class";
+		String l_header = "Package, Class";
+		Set<String> l_packages = new TreeSet<String>();
+		Map<String, String> l_class_package = new HashMap<String, String>();
 		Map<String, Map<String, NodeDegree>> l_pairs_list = new HashMap<String, Map<String, NodeDegree>>();
 		int l_number_of_versions = 0;
 		List<ViolationPair> l_viol_pairs_list = new LinkedList<ViolationPair>();
@@ -148,29 +152,47 @@ public class ViolationsManager {
 					if (l_pairs_list.containsKey(l_info.m_origin_class)) {
 						if (l_pairs_list.get(l_info.m_origin_class)
 								.containsKey(l_info.m_version))
+						{
 							++(l_pairs_list.get(l_info.m_origin_class).get(
 									l_info.m_version).m_outdegree);
+						}
 						else
+						{
 							l_pairs_list.get(l_info.m_origin_class).put(
 									l_info.m_version, new NodeDegree(0, 1));
+							l_class_package.put(l_info.m_origin_class, l_info.m_origin_method);
+						}
 					} else {
 						Map<String, NodeDegree> l_v_map = new HashMap<String, NodeDegree>();
 						l_v_map.put(l_info.m_version, new NodeDegree(0, 1));
 						l_pairs_list.put(l_info.m_origin_class, l_v_map);
+						if(l_class_package.containsKey(l_info.m_origin_class))
+							l_class_package.put(l_info.m_origin_class, l_info.m_origin_package);
+						if(!l_packages.contains(l_info.m_origin_package))
+							l_packages.add(l_info.m_origin_package);
 					}
 
 					if (l_pairs_list.containsKey(l_info.m_destiny_class)) {
 						if (l_pairs_list.get(l_info.m_destiny_class)
 								.containsKey(l_info.m_version))
+						{
 							++(l_pairs_list.get(l_info.m_destiny_class).get(
 									l_info.m_version).m_indegree);
+						}
 						else
+						{
 							l_pairs_list.get(l_info.m_destiny_class).put(
 									l_info.m_version, new NodeDegree(1, 0));
+							l_class_package.put(l_info.m_destiny_class, l_info.m_destiny_package);
+						}
 					} else {
 						Map<String, NodeDegree> l_v_map = new HashMap<String, NodeDegree>();
 						l_v_map.put(l_info.m_version, new NodeDegree(1, 0));
 						l_pairs_list.put(l_info.m_destiny_class, l_v_map);
+						if(l_class_package.containsKey(l_info.m_destiny_class))
+							l_class_package.put(l_info.m_destiny_class, l_info.m_destiny_package);
+						if(!l_packages.contains(l_info.m_destiny_package))
+							l_packages.add(l_info.m_destiny_package);
 					}
 				}
 			}
@@ -179,7 +201,7 @@ public class ViolationsManager {
 		FileOutputStream l_output_stream;
 		try {
 			l_output_stream = new FileOutputStream(
-					"/ArchitectureViolationsMiner/trunk/data/results/graph_degree.csv");
+					Main.PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/results/graph_degree.csv");
 			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
 					new OutputStreamWriter(l_output_stream));
 
