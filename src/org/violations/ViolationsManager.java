@@ -125,7 +125,7 @@ public class ViolationsManager {
 	}
 
 	void write_degree() {
-		String l_header = "Package, Class";
+		String l_header = "Package;Class";
 		Set<String> l_packages = new TreeSet<String>();
 		Map<String, String> l_class_package = new HashMap<String, String>();
 		Map<String, Map<String, NodeDegree>> l_pairs_list = new HashMap<String, Map<String, NodeDegree>>();
@@ -160,13 +160,14 @@ public class ViolationsManager {
 						{
 							l_pairs_list.get(l_info.m_origin_class).put(
 									l_info.m_version, new NodeDegree(0, 1));
-							l_class_package.put(l_info.m_origin_class, l_info.m_origin_method);
+							if(!l_class_package.containsKey(l_info.m_origin_class))
+								l_class_package.put(l_info.m_origin_class, l_info.m_origin_package);
 						}
 					} else {
 						Map<String, NodeDegree> l_v_map = new HashMap<String, NodeDegree>();
 						l_v_map.put(l_info.m_version, new NodeDegree(0, 1));
 						l_pairs_list.put(l_info.m_origin_class, l_v_map);
-						if(l_class_package.containsKey(l_info.m_origin_class))
+						if(!l_class_package.containsKey(l_info.m_origin_class))
 							l_class_package.put(l_info.m_origin_class, l_info.m_origin_package);
 						if(!l_packages.contains(l_info.m_origin_package))
 							l_packages.add(l_info.m_origin_package);
@@ -183,13 +184,14 @@ public class ViolationsManager {
 						{
 							l_pairs_list.get(l_info.m_destiny_class).put(
 									l_info.m_version, new NodeDegree(1, 0));
-							l_class_package.put(l_info.m_destiny_class, l_info.m_destiny_package);
+							if(!l_class_package.containsKey(l_info.m_destiny_class))
+								l_class_package.put(l_info.m_destiny_class, l_info.m_destiny_package);
 						}
 					} else {
 						Map<String, NodeDegree> l_v_map = new HashMap<String, NodeDegree>();
 						l_v_map.put(l_info.m_version, new NodeDegree(1, 0));
 						l_pairs_list.put(l_info.m_destiny_class, l_v_map);
-						if(l_class_package.containsKey(l_info.m_destiny_class))
+						if(!l_class_package.containsKey(l_info.m_destiny_class))
 							l_class_package.put(l_info.m_destiny_class, l_info.m_destiny_package);
 						if(!l_packages.contains(l_info.m_destiny_package))
 							l_packages.add(l_info.m_destiny_package);
@@ -202,6 +204,126 @@ public class ViolationsManager {
 		try {
 			l_output_stream = new FileOutputStream(
 					Main.PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/results/graph_degree.csv");
+			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
+					new OutputStreamWriter(l_output_stream));
+
+			l_bufferBufferedWriter.write(l_packages.size() + "_" + l_header + "\n");
+
+			for (Entry<String, Map<String, NodeDegree>> pair_master : l_pairs_list
+					.entrySet()) {
+				// l_bufferBufferedWriter.write(pair_master.getKey());
+				int i = 1;
+				l_bufferBufferedWriter.write(l_class_package.get(pair_master.getKey()) + ";" + pair_master.getKey());
+				SortedMap<String, String> l_classes_strings = new TreeMap<String, String>();
+				for (Entry<String, NodeDegree> pair : pair_master.getValue()
+						.entrySet()) {
+					l_classes_strings.put(
+							pair.getKey(),
+							";" + +pair.getValue().m_indegree + ";"
+									+ pair.getValue().m_outdegree);
+				}
+
+				for (String l_key : l_classes_strings.keySet()) {
+
+					if (Integer.parseInt(l_key) > i) {
+						while (Integer.parseInt(l_key) != i) {
+							l_bufferBufferedWriter.write(";0;0");
+							++i;
+						}
+					}
+
+					if (Integer.parseInt(l_key) == i) {
+						l_bufferBufferedWriter.write(l_classes_strings
+								.get(l_key));
+					}
+
+					++i;
+				}
+
+				while (i <= l_number_of_versions) {
+					l_bufferBufferedWriter.write(";0;0");
+					++i;
+				}
+
+				l_bufferBufferedWriter.write("\n");
+			}
+
+			l_bufferBufferedWriter.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void write_package_degree() {
+		String l_header = "Package";
+		Map<String, Map<String, NodeDegree>> l_pairs_list = new HashMap<String, Map<String, NodeDegree>>();
+		int l_number_of_versions = 0;
+		List<ViolationPair> l_viol_pairs_list = new LinkedList<ViolationPair>();
+
+		for (Entry<String, List<ViolationInfo>> l_entry : m_info.entrySet()) {
+			l_header += ";Indegree_" + l_entry.getKey() + ";Outdegree_"
+					+ l_entry.getKey();
+			++l_number_of_versions;
+			for (ViolationInfo l_info : l_entry.getValue()) {
+				ViolationPair l_pair = new ViolationPair(l_info.m_origin_class,
+						l_info.m_destiny_class, l_info);
+				boolean l_found = false;
+				for (ViolationPair pair : l_viol_pairs_list) {
+					if (pair.equals(l_pair)) {
+						l_found = true;
+						break;
+					}
+				}
+
+				if (!l_found) {
+					l_viol_pairs_list.add(l_pair);
+					if (l_pairs_list.containsKey(l_info.m_origin_package)) {
+						if (l_pairs_list.get(l_info.m_origin_package)
+								.containsKey(l_info.m_version))
+						{
+							++(l_pairs_list.get(l_info.m_origin_package).get(
+									l_info.m_version).m_outdegree);
+						}
+						else
+						{
+							l_pairs_list.get(l_info.m_origin_package).put(
+									l_info.m_version, new NodeDegree(0, 1));
+						}
+					} else {
+						Map<String, NodeDegree> l_v_map = new HashMap<String, NodeDegree>();
+						l_v_map.put(l_info.m_version, new NodeDegree(0, 1));
+						l_pairs_list.put(l_info.m_origin_package, l_v_map);
+					}
+
+					if (l_pairs_list.containsKey(l_info.m_destiny_package)) {
+						if (l_pairs_list.get(l_info.m_destiny_package)
+								.containsKey(l_info.m_version))
+						{
+							++(l_pairs_list.get(l_info.m_destiny_package).get(
+									l_info.m_version).m_indegree);
+						}
+						else
+						{
+							l_pairs_list.get(l_info.m_destiny_package).put(
+									l_info.m_version, new NodeDegree(1, 0));
+						}
+					} else {
+						Map<String, NodeDegree> l_v_map = new HashMap<String, NodeDegree>();
+						l_v_map.put(l_info.m_version, new NodeDegree(1, 0));
+						l_pairs_list.put(l_info.m_destiny_package, l_v_map);
+					}
+				}
+			}
+		}
+
+		FileOutputStream l_output_stream;
+		try {
+			l_output_stream = new FileOutputStream(
+					Main.PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/results/graph_package_degree.csv");
 			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
 					new OutputStreamWriter(l_output_stream));
 

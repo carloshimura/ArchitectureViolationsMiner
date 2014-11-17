@@ -10,9 +10,9 @@ public class Main {
 		ViolationsManager l_manager = new ViolationsManager();
 		
 //		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/ant_violations/");
-		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/argouml_violations/");
+//		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/argouml_violations/");
 //		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/lucene_violations/");
-//		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/sweethome3d_violations/");
+		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/sweethome3d_violations/");
 		 File[] listOfFiles = folder.listFiles();
 
 		 int i = 1;
@@ -29,8 +29,9 @@ public class Main {
 
 
 		
-		l_manager.write_graph();
+		//l_manager.write_graph();
 		//l_manager.write_degree();
+		 l_manager.write_package_degree();
 	}
 
 }
