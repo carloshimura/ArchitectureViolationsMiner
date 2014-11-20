@@ -6,6 +6,11 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.SortedMap;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
 import org.violations.SVNTuple.OPERATION;
 
@@ -13,13 +18,13 @@ public class SVNLogReader
 {
 	
 	String m_file_path;
-	LinkedList<SVNTuple> m_changes;
+	SortedMap<Integer, Set<SVNTuple>> m_changes;
 	Map<String, Map<String, Integer>> m_common_percentage;
 	
 	public SVNLogReader(String file)
 	{
 		m_file_path = file;
-		m_changes = new LinkedList<SVNTuple>();
+		m_changes = new TreeMap<Integer, Set<SVNTuple>>();
 		m_common_percentage = new HashMap<String, Map<String,Integer>>(); 
 	}
 	
@@ -41,7 +46,6 @@ Changed paths:
    A /trunk/referee
    A /trunk/service_bus
 */
-		boolean l_reading_files = false;
 		int l_current_version = 0;
 		try {
 			String l_current_line = null;
@@ -52,7 +56,6 @@ Changed paths:
 				if(l_current_line.contains("----"))
 				{
 					//clear or do nothing
-					l_reading_files = false;
 				}
 				else
 				{
@@ -76,7 +79,17 @@ Changed paths:
 								String l_path = l_folder_fiedls[1];
 								
 								SVNTuple l_tuple = new SVNTuple(OPERATION.ADD, l_path, l_file_name, l_current_version);
-								m_changes.add(l_tuple);
+								
+								if(m_changes.containsKey(l_current_version))
+								{
+									m_changes.get(l_current_version).add(l_tuple);
+								}
+								else
+								{
+									Set<SVNTuple> l_list = new TreeSet<SVNTuple>();
+									l_list.add(l_tuple);
+									m_changes.put(l_current_version, l_list);
+								}
 							}
 							break;
 						case 'M':
@@ -88,7 +101,17 @@ Changed paths:
 								String l_path = l_folder_fiedls[1];
 								
 								SVNTuple l_tuple = new SVNTuple(OPERATION.MODIFY, l_path, l_file_name, l_current_version);
-								m_changes.add(l_tuple);
+								
+								if(m_changes.containsKey(l_current_version))
+								{
+									m_changes.get(l_current_version).add(l_tuple);
+								}
+								else
+								{
+									Set<SVNTuple> l_list = new TreeSet<SVNTuple>();
+									l_list.add(l_tuple);
+									m_changes.put(l_current_version, l_list);
+								}
 							}
 							break;
 						case 'D':
@@ -100,7 +123,17 @@ Changed paths:
 								String l_path = l_folder_fiedls[1];
 								
 								SVNTuple l_tuple = new SVNTuple(OPERATION.REMOVE, l_path, l_file_name, l_current_version);
-								m_changes.add(l_tuple);
+								
+								if(m_changes.containsKey(l_current_version))
+								{
+									m_changes.get(l_current_version).add(l_tuple);
+								}
+								else
+								{
+									Set<SVNTuple> l_list = new TreeSet<SVNTuple>();
+									l_list.add(l_tuple);
+									m_changes.put(l_current_version, l_list);
+								}
 							}
 							break;
 						default:
@@ -119,7 +152,27 @@ Changed paths:
 	
 	void calc_common_change_percentage()
 	{
-		
+		for(Integer l_key : m_changes.keySet())
+		{
+			Set<SVNTuple> l_version_tuples = m_changes.get(l_key);
+			for(SVNTuple tuple : l_version_tuples)
+			{
+				if(!m_common_percentage.containsKey(tuple.m_path))
+				{
+					for(Entry<Integer, Set<SVNTuple>> entry : m_changes.entrySet())
+					{
+						if(entry.getValue().contains(tuple))
+						{
+							
+						}
+					}
+				}
+				else
+				{
+					//next file
+				}
+			}
+		}
 	}
 
 }

@@ -16,4 +16,15 @@ public class SVNTuple {
 		m_file = file;
 		m_version = version;
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj != null && obj instanceof SVNTuple)
+		{
+			SVNTuple l_tuple = (SVNTuple)obj;
+			if(l_tuple.m_path == this.m_path)
+				return true;
+		}
+		return false;
+	}
 }
