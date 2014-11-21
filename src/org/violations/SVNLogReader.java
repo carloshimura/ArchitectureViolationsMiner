@@ -19,13 +19,13 @@ public class SVNLogReader
 	
 	String m_file_path;
 	SortedMap<Integer, Set<SVNTuple>> m_changes;
-	Map<String, Map<String, Integer>> m_common_percentage;
+	Map<String, Map<String, TupleInfo>> m_common_percentage;
 	
 	public SVNLogReader(String file)
 	{
 		m_file_path = file;
 		m_changes = new TreeMap<Integer, Set<SVNTuple>>();
-		m_common_percentage = new HashMap<String, Map<String,Integer>>(); 
+		m_common_percentage = new HashMap<String, Map<String, TupleInfo>>(); 
 	}
 	
 	public void read_file()
@@ -159,13 +159,38 @@ Changed paths:
 			{
 				if(!m_common_percentage.containsKey(tuple.m_path))
 				{
+					SortedMap<String,TupleInfo> l_info_map = new TreeMap<String, TupleInfo>(); 
+					int l_mod_number = 0;
 					for(Entry<Integer, Set<SVNTuple>> entry : m_changes.entrySet())
 					{
 						if(entry.getValue().contains(tuple))
 						{
-							
+							++l_mod_number;
+							for(SVNTuple tup : entry.getValue())
+							{
+								if(tuple.m_path == tup.m_path) //same file
+									continue;
+								if(l_info_map.containsKey(tup.m_path))
+								{
+									++(l_info_map.get(tup.m_path).m_common_modified_count);
+								}
+								else
+								{
+									TupleInfo l_tinfo = new TupleInfo();
+									l_tinfo.m_common_modified_count = 1;
+									l_info_map.put(tup.m_path, l_tinfo);
+								}
+							}
 						}
 					}
+					
+					for(Entry<String, TupleInfo> entry_info : l_info_map.entrySet())
+					{
+						entry_info.getValue().m_total_modified_count = l_mod_number;
+						entry_info.getValue().m_percentage = 100 * (entry_info.getValue().m_common_modified_count / entry_info.getValue().m_total_modified_count);
+					}
+					
+					m_common_percentage.put(tuple.m_path, l_info_map);
 				}
 				else
 				{
