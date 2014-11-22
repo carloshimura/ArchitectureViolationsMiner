@@ -1,10 +1,13 @@
 package org.violations;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -63,8 +66,8 @@ Changed paths:
 					if(l_current_line.charAt(0) == 'r')
 					{
 						//get version
-						String l_fiedls[] = l_current_line.split("|");
-						l_current_version = Integer.parseInt(l_fiedls[0].trim().replaceAll("r", ""));
+						String l_fields[] = l_current_line.split("\\|");
+						l_current_version = Integer.parseInt(l_fields[0].trim().replaceAll("r", ""));
 					}
 					else
 					{
@@ -168,7 +171,7 @@ Changed paths:
 							++l_mod_number;
 							for(SVNTuple tup : entry.getValue())
 							{
-								if(tuple.m_path == tup.m_path) //same file
+								if(tuple.m_path.equals(tup.m_path)) //same file
 									continue;
 								if(l_info_map.containsKey(tup.m_path))
 								{
@@ -187,7 +190,8 @@ Changed paths:
 					for(Entry<String, TupleInfo> entry_info : l_info_map.entrySet())
 					{
 						entry_info.getValue().m_total_modified_count = l_mod_number;
-						entry_info.getValue().m_percentage = 100 * (entry_info.getValue().m_common_modified_count / entry_info.getValue().m_total_modified_count);
+						entry_info.getValue().m_percentage = 100.0 * ((double)(entry_info.getValue().m_common_modified_count) / 
+								(double)(entry_info.getValue().m_total_modified_count));
 					}
 					
 					m_common_percentage.put(tuple.m_path, l_info_map);
@@ -197,6 +201,40 @@ Changed paths:
 					//next file
 				}
 			}
+		}
+	}
+	
+	void write_data()
+	{
+		FileOutputStream l_output_stream;
+		try {
+			l_output_stream = new FileOutputStream(
+					"/ArchitectureViolationsMiner/trunk/data/results/svn_result.csv");
+			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
+					new OutputStreamWriter(l_output_stream));
+			
+			l_bufferBufferedWriter.write("Class;Co-change-class;Comon-percentage;Common-count;Total(Class)\n"); 
+
+			for(Entry<String, Map<String, TupleInfo>> entry : m_common_percentage.entrySet())
+			{
+				for(Entry<String, TupleInfo> sub_entry : entry.getValue().entrySet())
+				{
+					if(sub_entry.getValue().m_common_modified_count > 3)
+					{
+						l_bufferBufferedWriter.write(entry.getKey() + ";" + sub_entry.getKey() + ";" + sub_entry.getValue().m_percentage + ";" +
+								sub_entry.getValue().m_common_modified_count + ";" + sub_entry.getValue().m_total_modified_count + "\n");
+					}
+				}
+			}
+			
+			l_bufferBufferedWriter.close();
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 

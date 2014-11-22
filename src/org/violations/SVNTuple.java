@@ -1,6 +1,6 @@
 package org.violations;
 
-public class SVNTuple {
+public class SVNTuple implements Comparable<SVNTuple> {
 	
 	public enum OPERATION {ADD, REMOVE, MODIFY};
 	
@@ -26,5 +26,10 @@ public class SVNTuple {
 				return true;
 		}
 		return false;
+	}
+
+	@Override
+	public int compareTo(SVNTuple arg0) {
+		return this.m_path.compareTo(arg0.m_path);
 	}
 }
