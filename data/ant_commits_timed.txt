@@ -1,0 +1,1925 @@
+------------------------------------------------------------------------
+r500777 | jkf | 2007-01-28 08:49:35 -0200 (Sun, 28 Jan 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/DependSet.java
+------------------------------------------------------------------------
+r502505 | kevj | 2007-02-02 03:27:57 -0200 (Fri, 02 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+------------------------------------------------------------------------
+r502509 | kevj | 2007-02-02 03:36:01 -0200 (Fri, 02 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+------------------------------------------------------------------------
+r505532 | jkf | 2007-02-09 20:17:47 -0200 (Fri, 09 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Replace.java
+------------------------------------------------------------------------
+r506547 | peterreilly | 2007-02-12 15:42:32 -0200 (Mon, 12 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r508864 | kevj | 2007-02-18 02:22:44 -0200 (Sun, 18 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Copy.java
+------------------------------------------------------------------------
+r508865 | kevj | 2007-02-18 02:58:23 -0200 (Sun, 18 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r508866 | kevj | 2007-02-18 02:59:27 -0200 (Sun, 18 Feb 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r513710 | jhm | 2007-03-02 08:31:53 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/AntVersion.java
+   M /ant/core/trunk/src/tests/antunit/taskdefs/condition/antversion-test.xml
+------------------------------------------------------------------------
+r513823 | mbenson | 2007-03-02 13:14:57 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/ArchiveFileSet.java
+------------------------------------------------------------------------
+r513824 | mbenson | 2007-03-02 13:15:23 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Tar.java
+------------------------------------------------------------------------
+r513829 | mbenson | 2007-03-02 13:25:41 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTypes/resources.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/defaults.properties
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/First.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Last.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/SizeLimitCollection.java
+   A /ant/core/trunk/src/tests/antunit/types/resources/first-last-test.xml
+------------------------------------------------------------------------
+r513899 | mbenson | 2007-03-02 16:24:56 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/StringUtils.java
+------------------------------------------------------------------------
+r513900 | mbenson | 2007-03-02 16:25:56 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r513901 | mbenson | 2007-03-02 16:27:56 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   A /ant/core/trunk/docs/manual/CoreTasks/truncate.html
+   M /ant/core/trunk/docs/manual/coretasklist.html
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Truncate.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/defaults.properties
+   A /ant/core/trunk/src/tests/antunit/taskdefs/truncate
+   A /ant/core/trunk/src/tests/antunit/taskdefs/truncate/truncate-test.xml
+------------------------------------------------------------------------
+r513903 | mbenson | 2007-03-02 16:32:10 -0300 (Fri, 02 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Truncate.java
+------------------------------------------------------------------------
+r517627 | kevj | 2007-03-13 07:03:15 -0300 (Tue, 13 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/TaskContainer.java
+------------------------------------------------------------------------
+r517628 | kevj | 2007-03-13 07:06:23 -0300 (Tue, 13 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ProjectHelper.java
+------------------------------------------------------------------------
+r517988 | kevj | 2007-03-14 00:45:19 -0300 (Wed, 14 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/TarScanner.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/ZipScanner.java
+------------------------------------------------------------------------
+r518894 | kevj | 2007-03-16 06:08:12 -0300 (Fri, 16 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+------------------------------------------------------------------------
+r518895 | kevj | 2007-03-16 06:11:27 -0300 (Fri, 16 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+------------------------------------------------------------------------
+r518896 | kevj | 2007-03-16 06:14:06 -0300 (Fri, 16 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r518897 | kevj | 2007-03-16 06:17:02 -0300 (Fri, 16 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r519857 | kevj | 2007-03-19 04:02:30 -0300 (Mon, 19 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r520382 | stevel | 2007-03-20 10:30:24 -0300 (Tue, 20 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Main.java
+------------------------------------------------------------------------
+r520384 | stevel | 2007-03-20 10:31:41 -0300 (Tue, 20 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r521278 | mbenson | 2007-03-22 11:12:20 -0300 (Thu, 22 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   A /ant/core/trunk/src/main/org/apache/tools/ant/helper/IgnoreDependenciesExecutor.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/ExecutorTest.java
+------------------------------------------------------------------------
+r523681 | antoine | 2007-03-29 09:15:21 -0300 (Thu, 29 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/util/FileUtilsTest.java
+------------------------------------------------------------------------
+r523682 | antoine | 2007-03-29 09:17:54 -0300 (Thu, 29 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r523683 | antoine | 2007-03-29 09:21:36 -0300 (Thu, 29 Mar 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r526228 | mbenson | 2007-04-06 14:09:48 -0300 (Fri, 06 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTypes/patternset.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/PatternSet.java
+------------------------------------------------------------------------
+r526485 | jkf | 2007-04-07 18:17:00 -0300 (Sat, 07 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Main.java
+------------------------------------------------------------------------
+r526539 | jkf | 2007-04-08 08:54:46 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/DDCreator.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/Ejbc.java
+------------------------------------------------------------------------
+r526541 | jkf | 2007-04-08 09:05:03 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java
+------------------------------------------------------------------------
+r526542 | jkf | 2007-04-08 09:06:38 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Manifest.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/perforce/P4Fstat.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerCreator.java
+------------------------------------------------------------------------
+r526544 | jkf | 2007-04-08 09:07:26 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/extension/Specification.java
+------------------------------------------------------------------------
+r526545 | jkf | 2007-04-08 09:08:27 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Main.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/StripJavaComments.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Execute.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/SignJar.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Tar.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/UpToDate.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/IsSigned.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagEntry.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ANTLR.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/ContainsRegexpSelector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ContainerMapper.java
+------------------------------------------------------------------------
+r526547 | jkf | 2007-04-08 09:42:40 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+------------------------------------------------------------------------
+r526548 | jkf | 2007-04-08 09:43:36 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/HeadFilter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/TabsToSpaces.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/TailFilter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/DateSelector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SizeSelector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DeweyDecimal.java
+------------------------------------------------------------------------
+r526568 | jkf | 2007-04-08 12:29:51 -0300 (Sun, 08 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+------------------------------------------------------------------------
+r526722 | jkf | 2007-04-09 09:03:02 -0300 (Mon, 09 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/DDCreator.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/Ejbc.java
+------------------------------------------------------------------------
+r527130 | stevel | 2007-04-10 10:14:40 -0300 (Tue, 10 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/TokenFilter.java
+------------------------------------------------------------------------
+r528047 | mbenson | 2007-04-12 14:20:19 -0300 (Thu, 12 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/PatternSet.java
+------------------------------------------------------------------------
+r529630 | peterreilly | 2007-04-17 11:53:20 -0300 (Tue, 17 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Unpack.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/ArchiveFileSet.java
+------------------------------------------------------------------------
+r529855 | bodewig | 2007-04-18 01:17:52 -0300 (Wed, 18 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java
+------------------------------------------------------------------------
+r530374 | jhm | 2007-04-19 07:49:51 -0300 (Thu, 19 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/etc/testcases/taskdefs/manifest.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestException.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/ManifestTest.java
+------------------------------------------------------------------------
+r530662 | jhm | 2007-04-20 02:59:51 -0300 (Fri, 20 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+------------------------------------------------------------------------
+r530664 | jhm | 2007-04-20 03:25:05 -0300 (Fri, 20 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/CoreTasks/manifest.html
+   M /ant/core/trunk/src/etc/testcases/taskdefs/manifest.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/ManifestTest.java
+------------------------------------------------------------------------
+r530818 | jhm | 2007-04-20 11:07:11 -0300 (Fri, 20 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/ManifestTest.java
+------------------------------------------------------------------------
+r531340 | kevj | 2007-04-23 02:52:59 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+------------------------------------------------------------------------
+r531427 | stevel | 2007-04-23 08:00:52 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/FilterSet.java
+------------------------------------------------------------------------
+r531448 | stevel | 2007-04-23 09:30:32 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r531483 | stevel | 2007-04-23 11:41:10 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/AntVersion.java
+------------------------------------------------------------------------
+r531486 | stevel | 2007-04-23 11:45:30 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r531575 | jkf | 2007-04-23 16:48:43 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Delete.java
+------------------------------------------------------------------------
+r531599 | stevel | 2007-04-23 18:10:42 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/optional/JavaxScriptRunner.java
+------------------------------------------------------------------------
+r531603 | stevel | 2007-04-23 18:13:52 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Ear.java
+------------------------------------------------------------------------
+r531604 | stevel | 2007-04-23 18:14:23 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerCreator.java
+------------------------------------------------------------------------
+r531625 | jkf | 2007-04-23 18:49:24 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Permissions.java
+------------------------------------------------------------------------
+r531627 | jkf | 2007-04-23 18:59:16 -0300 (Mon, 23 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Permissions.java
+------------------------------------------------------------------------
+r532325 | stevel | 2007-04-25 08:46:08 -0300 (Wed, 25 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java
+------------------------------------------------------------------------
+r533024 | kevj | 2007-04-27 06:03:26 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+------------------------------------------------------------------------
+r533082 | stevel | 2007-04-27 09:45:53 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+   A /ant/core/trunk/src/tests/junit/org/apache/tools/ant/launch
+   A /ant/core/trunk/src/tests/junit/org/apache/tools/ant/launch/LocatorTest.java
+------------------------------------------------------------------------
+r533112 | stevel | 2007-04-27 11:17:56 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Tokens.java
+------------------------------------------------------------------------
+r533113 | stevel | 2007-04-27 11:18:26 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Resource.java
+------------------------------------------------------------------------
+r533115 | stevel | 2007-04-27 11:20:45 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/CoreTypes/resources.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/StringResource.java
+------------------------------------------------------------------------
+r533121 | stevel | 2007-04-27 11:37:56 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/OptionalTasks/scriptdef.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/script/ScriptDef.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerBase.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerHelper.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/optional/script
+   A /ant/core/trunk/src/tests/antunit/taskdefs/optional/script/scriptdef-test.xml
+------------------------------------------------------------------------
+r533122 | mbenson | 2007-04-27 11:38:15 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/StringResource.java
+------------------------------------------------------------------------
+r533214 | stevel | 2007-04-27 17:40:13 -0300 (Fri, 27 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntClassLoader.java
+------------------------------------------------------------------------
+r533464 | kevj | 2007-04-29 02:10:13 -0300 (Sun, 29 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+------------------------------------------------------------------------
+r533498 | jkf | 2007-04-29 10:00:17 -0300 (Sun, 29 Apr 2007)
+Changed paths:
+   M /ant/core/trunk/CONTRIBUTORS
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntClassLoader.java
+------------------------------------------------------------------------
+r534433 | bodewig | 2007-05-02 09:51:02 -0300 (Wed, 02 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java
+------------------------------------------------------------------------
+r534434 | bodewig | 2007-05-02 09:51:20 -0300 (Wed, 02 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java
+------------------------------------------------------------------------
+r535312 | peterreilly | 2007-05-04 13:14:49 -0300 (Fri, 04 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Project.java
+------------------------------------------------------------------------
+r536352 | mbenson | 2007-05-08 19:26:17 -0300 (Tue, 08 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReaderInputStream.java
+------------------------------------------------------------------------
+r536353 | mbenson | 2007-05-08 19:27:10 -0300 (Tue, 08 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Resources.java
+------------------------------------------------------------------------
+r536355 | mbenson | 2007-05-08 19:28:38 -0300 (Tue, 08 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/StringResource.java
+------------------------------------------------------------------------
+r536356 | mbenson | 2007-05-08 19:29:24 -0300 (Tue, 08 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/URLResource.java
+------------------------------------------------------------------------
+r536358 | mbenson | 2007-05-08 19:30:20 -0300 (Tue, 08 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/LogOutputStream.java
+------------------------------------------------------------------------
+r536536 | mbenson | 2007-05-09 11:08:50 -0300 (Wed, 09 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ResourceUtils.java
+------------------------------------------------------------------------
+r536548 | mbenson | 2007-05-09 11:49:46 -0300 (Wed, 09 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Length.java
+------------------------------------------------------------------------
+r536579 | mbenson | 2007-05-09 13:41:35 -0300 (Wed, 09 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Concat.java
+   M /ant/core/trunk/src/tests/antunit/taskdefs/concat-test.xml
+   A /ant/core/trunk/src/tests/antunit/taskdefs/utf-16.expected
+   A /ant/core/trunk/src/tests/antunit/types/resources/concat-resource-test.xml
+------------------------------------------------------------------------
+r536592 | mbenson | 2007-05-09 14:12:26 -0300 (Wed, 09 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Concat.java
+   M /ant/core/trunk/src/tests/antunit/taskdefs/concat-test.xml
+------------------------------------------------------------------------
+r537018 | mbenson | 2007-05-10 19:23:57 -0300 (Thu, 10 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/StringResource.java
+------------------------------------------------------------------------
+r537021 | mbenson | 2007-05-10 19:30:36 -0300 (Thu, 10 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/StripLineComments.java
+   A /ant/core/trunk/src/tests/antunit/filters
+   A /ant/core/trunk/src/tests/antunit/filters/striplinecomments-test.xml
+------------------------------------------------------------------------
+r537023 | mbenson | 2007-05-10 19:35:27 -0300 (Thu, 10 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/StripLineComments.java
+   M /ant/core/trunk/src/tests/antunit/filters/striplinecomments-test.xml
+------------------------------------------------------------------------
+r537194 | peterreilly | 2007-05-11 11:00:14 -0300 (Fri, 11 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/optional/JavaxScriptRunner.java
+------------------------------------------------------------------------
+r537334 | kevj | 2007-05-12 01:32:11 -0300 (Sat, 12 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DOMElementWriter.java
+------------------------------------------------------------------------
+r537342 | kevj | 2007-05-12 03:06:29 -0300 (Sat, 12 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/conditions/antlib.xml
+------------------------------------------------------------------------
+r537343 | kevj | 2007-05-12 03:08:26 -0300 (Sat, 12 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourcesMatch.java
+------------------------------------------------------------------------
+r537344 | kevj | 2007-05-12 03:09:06 -0300 (Sat, 12 May 2007)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+------------------------------------------------------------------------
+r537859 | mbenson | 2007-05-14 11:44:50 -0300 (Mon, 14 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+------------------------------------------------------------------------
+r537862 | stevel | 2007-05-14 11:55:14 -0300 (Mon, 14 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/MagicNames.java
+------------------------------------------------------------------------
+r537876 | mbenson | 2007-05-14 12:24:44 -0300 (Mon, 14 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+------------------------------------------------------------------------
+r537880 | mbenson | 2007-05-14 12:31:24 -0300 (Mon, 14 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+------------------------------------------------------------------------
+r537899 | mbenson | 2007-05-14 13:14:43 -0300 (Mon, 14 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+   M /ant/core/trunk/src/tests/antunit/taskdefs/condition/resourcecontains-test.xml
+------------------------------------------------------------------------
+r538976 | kevj | 2007-05-17 12:42:12 -0300 (Thu, 17 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/java15/ProxyDiagnostics.java
+------------------------------------------------------------------------
+r538995 | stevel | 2007-05-17 13:16:16 -0300 (Thu, 17 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Project.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Ant.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/subant-test.xml
+------------------------------------------------------------------------
+r539002 | stevel | 2007-05-17 13:25:44 -0300 (Thu, 17 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/launch/LocatorTest.java
+------------------------------------------------------------------------
+r539306 | kevj | 2007-05-18 05:21:18 -0300 (Fri, 18 May 2007)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Retry.java
+------------------------------------------------------------------------
+r539307 | kevj | 2007-05-18 05:24:12 -0300 (Fri, 18 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/defaults.properties
+------------------------------------------------------------------------
+r539329 | kevj | 2007-05-18 05:58:19 -0300 (Fri, 18 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Retry.java
+------------------------------------------------------------------------
+r539370 | peterreilly | 2007-05-18 07:31:34 -0300 (Fri, 18 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/optional/JavaxScriptRunner.java
+------------------------------------------------------------------------
+r539477 | stevel | 2007-05-18 11:20:10 -0300 (Fri, 18 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/listeners.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/DefaultLogger.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/NoBannerLogger.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/AnsiColorLogger.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/listener/BigProjectLogger.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/TimestampedLogger.java
+------------------------------------------------------------------------
+r539547 | peterreilly | 2007-05-18 15:23:51 -0300 (Fri, 18 May 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/MacroDef.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/MacroInstance.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/macrodef-test.xml
+------------------------------------------------------------------------
+r540044 | jhm | 2007-05-21 04:11:59 -0300 (Mon, 21 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Retry.java
+------------------------------------------------------------------------
+r540055 | jhm | 2007-05-21 05:21:02 -0300 (Mon, 21 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Files.java
+   A /ant/core/trunk/src/tests/antunit/types/path-test.xml
+------------------------------------------------------------------------
+r540066 | jhm | 2007-05-21 05:48:15 -0300 (Mon, 21 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/LoadResource.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/loadresource-test.xml
+------------------------------------------------------------------------
+r540164 | mbenson | 2007-05-21 12:10:27 -0300 (Mon, 21 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/ContainsSelector.java
+------------------------------------------------------------------------
+r540435 | kevj | 2007-05-22 03:11:54 -0300 (Tue, 22 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+------------------------------------------------------------------------
+r540437 | kevj | 2007-05-22 03:13:22 -0300 (Tue, 22 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/input/DefaultInputHandler.java
+------------------------------------------------------------------------
+r540438 | kevj | 2007-05-22 03:15:02 -0300 (Tue, 22 May 2007)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/input/SecureInputHandler.java
+------------------------------------------------------------------------
+r540954 | stevel | 2007-05-23 10:42:50 -0300 (Wed, 23 May 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/OptionalTasks/rpm.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Rpm.java
+------------------------------------------------------------------------
+r541546 | kevj | 2007-05-25 01:46:27 -0300 (Fri, 25 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Main.java
+------------------------------------------------------------------------
+r542471 | kevj | 2007-05-29 06:30:47 -0300 (Tue, 29 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Concat.java
+------------------------------------------------------------------------
+r542801 | peterreilly | 2007-05-30 08:26:24 -0300 (Wed, 30 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java
+------------------------------------------------------------------------
+r542818 | peterreilly | 2007-05-30 10:22:13 -0300 (Wed, 30 May 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java
+------------------------------------------------------------------------
+r543406 | kevj | 2007-06-01 03:50:36 -0300 (Fri, 01 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r544708 | kevj | 2007-06-05 23:13:38 -0300 (Tue, 05 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Truncate.java
+------------------------------------------------------------------------
+r545087 | kevj | 2007-06-07 03:59:43 -0300 (Thu, 07 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntClassLoader.java
+------------------------------------------------------------------------
+r546132 | stevel | 2007-06-11 09:57:42 -0300 (Mon, 11 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+------------------------------------------------------------------------
+r547411 | mbenson | 2007-06-14 18:27:32 -0300 (Thu, 14 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r549255 | mbenson | 2007-06-20 18:44:46 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/MagicNames.java
+------------------------------------------------------------------------
+r549256 | mbenson | 2007-06-20 18:45:30 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/DiagnosticsTask.java
+------------------------------------------------------------------------
+r549258 | mbenson | 2007-06-20 18:50:15 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+------------------------------------------------------------------------
+r549261 | mbenson | 2007-06-20 18:55:20 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+------------------------------------------------------------------------
+r549262 | mbenson | 2007-06-20 18:55:41 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/RegularExpression.java
+------------------------------------------------------------------------
+r549264 | mbenson | 2007-06-20 18:56:06 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java
+------------------------------------------------------------------------
+r549265 | mbenson | 2007-06-20 18:56:34 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpRegexp.java
+------------------------------------------------------------------------
+r549266 | mbenson | 2007-06-20 18:56:57 -0300 (Wed, 20 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/JakartaOroRegexp.java
+------------------------------------------------------------------------
+r549681 | mbenson | 2007-06-22 00:08:49 -0300 (Fri, 22 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r549683 | mbenson | 2007-06-22 00:09:25 -0300 (Fri, 22 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/StringUtils.java
+------------------------------------------------------------------------
+r549684 | mbenson | 2007-06-22 00:10:20 -0300 (Fri, 22 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r549685 | mbenson | 2007-06-22 00:12:15 -0300 (Fri, 22 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Move.java
+------------------------------------------------------------------------
+r549699 | mbenson | 2007-06-22 00:52:02 -0300 (Fri, 22 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/MagicNames.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ProjectHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/helper/ProjectHelper2.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Description.java
+------------------------------------------------------------------------
+r549703 | mbenson | 2007-06-22 01:12:02 -0300 (Fri, 22 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r550549 | peterreilly | 2007-06-25 14:01:22 -0300 (Mon, 25 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Available.java
+------------------------------------------------------------------------
+r550573 | mbenson | 2007-06-25 15:55:18 -0300 (Mon, 25 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Java.java
+------------------------------------------------------------------------
+r551166 | mbenson | 2007-06-27 11:08:24 -0300 (Wed, 27 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/SQLExec.java
+------------------------------------------------------------------------
+r551323 | mbenson | 2007-06-27 18:02:43 -0300 (Wed, 27 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTasks/sql.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/SQLExec.java
+------------------------------------------------------------------------
+r551328 | mbenson | 2007-06-27 18:06:33 -0300 (Wed, 27 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerCreator.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerHelper.java
+------------------------------------------------------------------------
+r551330 | mbenson | 2007-06-27 18:07:19 -0300 (Wed, 27 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/StreamPumper.java
+------------------------------------------------------------------------
+r551541 | mbenson | 2007-06-28 09:54:31 -0300 (Thu, 28 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/script/ScriptDef.java
+------------------------------------------------------------------------
+r551543 | mbenson | 2007-06-28 09:59:54 -0300 (Thu, 28 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerBase.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/optional/JavaxScriptRunner.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/optional/ScriptRunner.java
+------------------------------------------------------------------------
+r551592 | mbenson | 2007-06-28 12:14:04 -0300 (Thu, 28 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/optional/AbstractScriptComponent.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/optional/ScriptCondition.java
+   M /ant/core/trunk/src/tests/antunit/types/scriptcondition-test.xml
+------------------------------------------------------------------------
+r551986 | mbenson | 2007-06-29 15:14:51 -0300 (Fri, 29 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/RegexpFactory.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/RegexpMatcherFactory.java
+------------------------------------------------------------------------
+r552042 | mbenson | 2007-06-29 18:50:46 -0300 (Fri, 29 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r552156 | mbenson | 2007-06-30 12:05:14 -0300 (Sat, 30 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Move.java
+------------------------------------------------------------------------
+r552208 | jkf | 2007-06-30 17:36:13 -0300 (Sat, 30 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Java.java
+------------------------------------------------------------------------
+r552218 | jkf | 2007-06-30 18:59:12 -0300 (Sat, 30 Jun 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+------------------------------------------------------------------------
+r552350 | mbenson | 2007-07-01 16:01:07 -0300 (Sun, 01 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Move.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r552475 | stevel | 2007-07-02 08:58:07 -0300 (Mon, 02 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Expand.java
+------------------------------------------------------------------------
+r553857 | jhm | 2007-07-06 09:19:28 -0300 (Fri, 06 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/build.xml
+   M /ant/core/trunk/docs/manual/CoreTasks/jar.html
+   M /ant/core/trunk/src/etc/testcases/taskdefs/jar.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/JarTest.java
+------------------------------------------------------------------------
+r554390 | mbenson | 2007-07-08 14:12:03 -0300 (Sun, 08 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Resource.java
+------------------------------------------------------------------------
+r554394 | mbenson | 2007-07-08 14:23:25 -0300 (Sun, 08 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Project.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/RuntimeConfigurable.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/PropertyHelperTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/defaults.properties
+------------------------------------------------------------------------
+r555174 | mbenson | 2007-07-11 02:28:04 -0300 (Wed, 11 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/PropertyHelperTask.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/propertyhelper-test.xml
+------------------------------------------------------------------------
+r556977 | mbenson | 2007-07-17 14:24:07 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ProxySetup.java
+------------------------------------------------------------------------
+r556980 | mbenson | 2007-07-17 14:25:45 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ClasspathUtils.java
+------------------------------------------------------------------------
+r556981 | mbenson | 2007-07-17 14:27:33 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Target.java
+------------------------------------------------------------------------
+r556982 | mbenson | 2007-07-17 14:29:30 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/PatternSet.java
+------------------------------------------------------------------------
+r556984 | mbenson | 2007-07-17 14:31:54 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibManifestTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibResolveTask.java
+------------------------------------------------------------------------
+r556986 | mbenson | 2007-07-17 14:33:37 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/AggregateTransformer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java
+------------------------------------------------------------------------
+r556987 | mbenson | 2007-07-17 14:36:28 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Retry.java
+   M /ant/core/trunk/src/tests/antunit/taskdefs/retry-test.xml
+------------------------------------------------------------------------
+r557003 | mbenson | 2007-07-17 15:07:11 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Rmic.java
+------------------------------------------------------------------------
+r557005 | mbenson | 2007-07-17 15:09:35 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/XmlLogger.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/compilers/Jikes.java
+------------------------------------------------------------------------
+r557013 | mbenson | 2007-07-17 15:37:53 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntClassLoader.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+------------------------------------------------------------------------
+r557016 | peterreilly | 2007-07-17 15:40:59 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/CONTRIBUTORS
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/contributors.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java
+   A /ant/core/trunk/src/tests/antunit/types/modified-selector-test.xml
+------------------------------------------------------------------------
+r557021 | mbenson | 2007-07-17 15:47:28 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Diagnostics.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/helper/ProjectHelper2.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/AntVersion.java
+------------------------------------------------------------------------
+r557024 | mbenson | 2007-07-17 15:53:36 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/IsSet.java
+------------------------------------------------------------------------
+r557025 | mbenson | 2007-07-17 15:55:42 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r557027 | mbenson | 2007-07-17 15:57:40 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Project.java
+------------------------------------------------------------------------
+r557045 | mbenson | 2007-07-17 17:20:17 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r557054 | mbenson | 2007-07-17 18:01:23 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/StringResource.java
+------------------------------------------------------------------------
+r557062 | mbenson | 2007-07-17 18:35:26 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/LoadProperties.java
+------------------------------------------------------------------------
+r557063 | mbenson | 2007-07-17 18:37:53 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+------------------------------------------------------------------------
+r557097 | mbenson | 2007-07-17 21:38:21 -0300 (Tue, 17 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Available.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ConditionTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/Equals.java
+------------------------------------------------------------------------
+r557212 | peterreilly | 2007-07-18 06:58:53 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+------------------------------------------------------------------------
+r557213 | peterreilly | 2007-07-18 06:59:27 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntClassLoader.java
+------------------------------------------------------------------------
+r557215 | peterreilly | 2007-07-18 07:35:16 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntClassLoader.java
+------------------------------------------------------------------------
+r557216 | peterreilly | 2007-07-18 07:35:52 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r557217 | peterreilly | 2007-07-18 07:37:18 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+------------------------------------------------------------------------
+r557220 | peterreilly | 2007-07-18 07:46:50 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Diagnostics.java
+------------------------------------------------------------------------
+r557221 | peterreilly | 2007-07-18 07:47:12 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/DefaultLogger.java
+------------------------------------------------------------------------
+r557229 | jhm | 2007-07-18 08:23:40 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/CoreTasks/jar.html
+   M /ant/core/trunk/src/etc/testcases/taskdefs/jar.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/JarTest.java
+------------------------------------------------------------------------
+r557270 | jhm | 2007-07-18 11:11:50 -0300 (Wed, 18 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/CoreTasks/jar.html
+   M /ant/core/trunk/src/etc/testcases/taskdefs/jar.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/JarTest.java
+------------------------------------------------------------------------
+r558058 | peterreilly | 2007-07-20 14:12:38 -0300 (Fri, 20 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTasks/javac.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javac.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java
+   M /ant/core/trunk/src/tests/antunit/taskdefs/javac-test.xml
+------------------------------------------------------------------------
+r558067 | peterreilly | 2007-07-20 14:39:44 -0300 (Fri, 20 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jar.java
+------------------------------------------------------------------------
+r558071 | peterreilly | 2007-07-20 14:49:22 -0300 (Fri, 20 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r558886 | mbenson | 2007-07-23 19:35:18 -0300 (Mon, 23 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/HeadFilter.java
+------------------------------------------------------------------------
+r559096 | mbenson | 2007-07-24 13:32:09 -0300 (Tue, 24 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Path.java
+------------------------------------------------------------------------
+r559237 | mbenson | 2007-07-24 19:07:23 -0300 (Tue, 24 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+------------------------------------------------------------------------
+r559243 | mbenson | 2007-07-24 19:21:59 -0300 (Tue, 24 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Path.java
+------------------------------------------------------------------------
+r559386 | jhm | 2007-07-25 07:12:58 -0300 (Wed, 25 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTasks/property.html
+   M /ant/core/trunk/src/etc/testcases/taskdefs/property.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/PropertyTest.java
+------------------------------------------------------------------------
+r559388 | jhm | 2007-07-25 07:23:08 -0300 (Wed, 25 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+------------------------------------------------------------------------
+r559634 | mbenson | 2007-07-25 19:34:21 -0300 (Wed, 25 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+------------------------------------------------------------------------
+r559637 | mbenson | 2007-07-25 19:38:25 -0300 (Wed, 25 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/PropertyHelperTask.java
+------------------------------------------------------------------------
+r559638 | mbenson | 2007-07-25 19:40:12 -0300 (Wed, 25 Jul 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r563053 | jhm | 2007-08-06 04:55:07 -0300 (Mon, 06 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/etc/testcases/taskdefs/optional/junit.xml
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/BuildFileTest.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskTest.java
+------------------------------------------------------------------------
+r563679 | mbenson | 2007-08-07 19:17:43 -0300 (Tue, 07 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/PropertyHelperTask.java
+------------------------------------------------------------------------
+r564639 | peterreilly | 2007-08-10 12:58:54 -0300 (Fri, 10 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/CONTRIBUTORS
+   M /ant/core/trunk/contributors.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Substitution.java
+------------------------------------------------------------------------
+r564787 | peterreilly | 2007-08-10 19:26:22 -0300 (Fri, 10 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/AntTypeDefinition.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/antlib.xml
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Componentdef.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Definer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ConditionBase.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/defaults.properties
+------------------------------------------------------------------------
+r564891 | peterreilly | 2007-08-11 07:45:19 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/BigProjectLogger.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Definer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javac.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Length.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/WLRmic.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Permissions.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/RegexpMatcherFactory.java
+------------------------------------------------------------------------
+r564907 | peterreilly | 2007-08-11 09:46:56 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java
+------------------------------------------------------------------------
+r564910 | peterreilly | 2007-08-11 09:49:18 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReflectUtil.java
+------------------------------------------------------------------------
+r564912 | peterreilly | 2007-08-11 09:51:20 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r564915 | peterreilly | 2007-08-11 09:54:11 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/NetRexxC.java
+------------------------------------------------------------------------
+r564917 | peterreilly | 2007-08-11 09:57:01 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/BigProjectLogger.java
+------------------------------------------------------------------------
+r564919 | peterreilly | 2007-08-11 09:57:54 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+------------------------------------------------------------------------
+r564923 | peterreilly | 2007-08-11 10:38:27 -0300 (Sat, 11 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/input/SecureInputHandler.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerBase.java
+------------------------------------------------------------------------
+r565089 | peterreilly | 2007-08-12 15:07:48 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarConstants.java
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ExtraFieldUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/UnixStat.java
+------------------------------------------------------------------------
+r565091 | peterreilly | 2007-08-12 15:09:18 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/XMLConstants.java
+------------------------------------------------------------------------
+r565093 | peterreilly | 2007-08-12 15:11:41 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/FilterSet.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/PatternSet.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Permissions.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/ZipScanner.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Last.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ClasspathUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DeweyDecimal.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerHelper.java
+------------------------------------------------------------------------
+r565095 | peterreilly | 2007-08-12 15:14:31 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Rpm.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/depend/ClassFileUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibResolveTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapterFactory.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapterFactory.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPConfigurator.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSConstants.java
+------------------------------------------------------------------------
+r565097 | peterreilly | 2007-08-12 15:17:35 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/AntVersion.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ConditionBase.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/Equals.java
+------------------------------------------------------------------------
+r565102 | peterreilly | 2007-08-12 15:20:59 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Available.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Componentdef.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Concat.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ConditionTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/DependSet.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Ear.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Expand.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Java.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/PropertyHelperTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Retry.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Rmic.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Truncate.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java
+------------------------------------------------------------------------
+r565104 | peterreilly | 2007-08-12 15:24:20 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Project.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/dispatch/DispatchUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/helper/ProjectHelper2.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/TimestampedLogger.java
+------------------------------------------------------------------------
+r565113 | peterreilly | 2007-08-12 15:47:13 -0300 (Sun, 12 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r566693 | peterreilly | 2007-08-16 09:57:21 -0300 (Thu, 16 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/JavaEnvUtils.java
+------------------------------------------------------------------------
+r566707 | jkf | 2007-08-16 10:33:00 -0300 (Thu, 16 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Pack.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/gzip-test.xml
+------------------------------------------------------------------------
+r566724 | peterreilly | 2007-08-16 11:19:29 -0300 (Thu, 16 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javadoc.java
+------------------------------------------------------------------------
+r566726 | peterreilly | 2007-08-16 11:21:50 -0300 (Thu, 16 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java
+------------------------------------------------------------------------
+r566990 | peterreilly | 2007-08-17 06:54:07 -0300 (Fri, 17 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/compilers/Jikes.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+------------------------------------------------------------------------
+r567589 | peterreilly | 2007-08-20 05:19:42 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+------------------------------------------------------------------------
+r567593 | peterreilly | 2007-08-20 05:29:12 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Redirector.java
+------------------------------------------------------------------------
+r567595 | peterreilly | 2007-08-20 05:32:11 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/MailLogger.java
+------------------------------------------------------------------------
+r567600 | peterreilly | 2007-08-20 05:36:17 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r567744 | peterreilly | 2007-08-20 13:34:24 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/War.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+------------------------------------------------------------------------
+r567747 | peterreilly | 2007-08-20 13:44:58 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r567752 | peterreilly | 2007-08-20 14:00:06 -0300 (Mon, 20 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r568096 | peterreilly | 2007-08-21 09:26:21 -0300 (Tue, 21 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r568201 | peterreilly | 2007-08-21 14:21:45 -0300 (Tue, 21 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Base64Converter.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipFile.java
+------------------------------------------------------------------------
+r568204 | peterreilly | 2007-08-21 14:39:20 -0300 (Tue, 21 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Base64Converter.java
+------------------------------------------------------------------------
+r568495 | peterreilly | 2007-08-22 05:16:49 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/CONTRIBUTORS
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/contributors.xml
+   M /ant/core/trunk/docs/manual/CoreTypes/fileset.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/DirectoryScanner.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/AbstractFileSet.java
+   M /ant/core/trunk/src/tests/antunit/types/fileset-test.xml
+------------------------------------------------------------------------
+r568503 | peterreilly | 2007-08-22 05:25:58 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTasks/javac.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javac.java
+------------------------------------------------------------------------
+r568510 | peterreilly | 2007-08-22 05:40:54 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/NullReturn.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/package.html
+------------------------------------------------------------------------
+r568511 | peterreilly | 2007-08-22 05:42:11 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+------------------------------------------------------------------------
+r568520 | peterreilly | 2007-08-22 05:58:52 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/property/package.html
+------------------------------------------------------------------------
+r568592 | peterreilly | 2007-08-22 09:43:51 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/DirectoryScanner.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javac.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/AbstractFileSet.java
+------------------------------------------------------------------------
+r568704 | peterreilly | 2007-08-22 14:09:55 -0300 (Wed, 22 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SizeSelector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/RegexpFactory.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/RegexpMatcherFactory.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipOutputStream.java
+------------------------------------------------------------------------
+r568876 | peterreilly | 2007-08-23 05:12:13 -0300 (Thu, 23 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/UnknownElement.java
+------------------------------------------------------------------------
+r568885 | peterreilly | 2007-08-23 05:28:39 -0300 (Thu, 23 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Base64Converter.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/AsiExtraField.java
+------------------------------------------------------------------------
+r569089 | peterreilly | 2007-08-23 14:58:32 -0300 (Thu, 23 Aug 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ExtraFieldUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipEntry.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipFile.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipLong.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipOutputStream.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipShort.java
+------------------------------------------------------------------------
+r571970 | jkf | 2007-09-02 09:53:16 -0300 (Sun, 02 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTasks/touch.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Touch.java
+------------------------------------------------------------------------
+r572302 | peterreilly | 2007-09-03 09:57:52 -0300 (Mon, 03 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r572329 | peterreilly | 2007-09-03 10:29:04 -0300 (Mon, 03 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/ClassConstants.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/ExpandProperties.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/LoadProperties.java
+------------------------------------------------------------------------
+r572332 | peterreilly | 2007-09-03 10:35:13 -0300 (Mon, 03 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/ClassConstants.java
+------------------------------------------------------------------------
+r572363 | peterreilly | 2007-09-03 12:29:45 -0300 (Mon, 03 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/ExpandProperties.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Concat.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/ResourceContains.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/mappers/FilterMapper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ScriptRunnerBase.java
+------------------------------------------------------------------------
+r572374 | peterreilly | 2007-09-03 12:56:16 -0300 (Mon, 03 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Project.java
+   A /ant/core/trunk/src/tests/antunit/types/conditions/isreference-test.xml
+------------------------------------------------------------------------
+r572616 | peterreilly | 2007-09-04 08:06:15 -0300 (Tue, 04 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Touch.java
+------------------------------------------------------------------------
+r573537 | peterreilly | 2007-09-07 07:52:29 -0300 (Fri, 07 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/MacroInstance.java
+   A /ant/core/trunk/src/tests/antunit/bugfixes
+   A /ant/core/trunk/src/tests/antunit/bugfixes/README.txt
+   A /ant/core/trunk/src/tests/antunit/bugfixes/bugzilla-43324-stackoverflow-test.xml
+------------------------------------------------------------------------
+r573642 | peterreilly | 2007-09-07 14:52:29 -0300 (Fri, 07 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/IntrospectionHelper.java
+------------------------------------------------------------------------
+r573855 | jkf | 2007-09-08 12:24:40 -0300 (Sat, 08 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java
+------------------------------------------------------------------------
+r574302 | mbenson | 2007-09-10 14:13:35 -0300 (Mon, 10 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/Equals.java
+------------------------------------------------------------------------
+r574313 | jkf | 2007-09-10 14:43:31 -0300 (Mon, 10 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java
+------------------------------------------------------------------------
+r574339 | jkf | 2007-09-10 16:15:27 -0300 (Mon, 10 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/CoreTasks/tempfile.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/TempFile.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r574360 | jkf | 2007-09-10 17:19:38 -0300 (Mon, 10 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/FixCRLF.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/ExecTaskTest.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/JavaTest.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java
+------------------------------------------------------------------------
+r574554 | jhm | 2007-09-11 08:36:53 -0300 (Tue, 11 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/OptionalTasks/junit.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+------------------------------------------------------------------------
+r574889 | peterreilly | 2007-09-12 08:35:15 -0300 (Wed, 12 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/TempFile.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/condition/Equals.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r575511 | kevj | 2007-09-13 22:48:47 -0300 (Thu, 13 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r575634 | peterreilly | 2007-09-14 08:39:21 -0300 (Fri, 14 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/FixCrLfFilter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Truncate.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/WaitFor.java
+------------------------------------------------------------------------
+r575667 | peterreilly | 2007-09-14 10:12:31 -0300 (Fri, 14 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/FixCrLfFilter.java
+------------------------------------------------------------------------
+r575726 | peterreilly | 2007-09-14 12:44:33 -0300 (Fri, 14 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/filters/FixCrLfFilter.java
+------------------------------------------------------------------------
+r575728 | peterreilly | 2007-09-14 12:45:54 -0300 (Fri, 14 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+------------------------------------------------------------------------
+r575874 | kevj | 2007-09-15 01:49:24 -0300 (Sat, 15 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Dirname.java
+------------------------------------------------------------------------
+r576173 | jkf | 2007-09-16 17:54:17 -0300 (Sun, 16 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/docs/manual/listeners.html
+   A /ant/core/trunk/src/main/org/apache/tools/ant/listener/ProfileLogger.java
+------------------------------------------------------------------------
+r576176 | jkf | 2007-09-16 18:08:08 -0300 (Sun, 16 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Parallel.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Redirector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/WaitFor.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Watchdog.java
+------------------------------------------------------------------------
+r576370 | peterreilly | 2007-09-17 08:13:48 -0300 (Mon, 17 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/BUnzip2.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Checksum.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ExecTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Execute.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Expand.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/GUnzip.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Get.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Pack.java
+------------------------------------------------------------------------
+r576769 | stevel | 2007-09-18 05:17:13 -0300 (Tue, 18 Sep 2007)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/FileProvider.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/FileResource.java
+------------------------------------------------------------------------
+r577261 | peterreilly | 2007-09-19 09:00:46 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Parallel.java
+------------------------------------------------------------------------
+r577262 | peterreilly | 2007-09-19 09:01:33 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/listener/ProfileLogger.java
+------------------------------------------------------------------------
+r577263 | peterreilly | 2007-09-19 09:04:42 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Execute.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Get.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/JDBCTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Jikes.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/KeySubst.java
+------------------------------------------------------------------------
+r577279 | stevel | 2007-09-19 09:28:01 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+------------------------------------------------------------------------
+r577281 | stevel | 2007-09-19 09:29:39 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java
+   A /ant/core/trunk/src/tests/antunit/taskdefs/optional/unix
+   A /ant/core/trunk/src/tests/antunit/taskdefs/optional/unix/symlink-test.xml
+------------------------------------------------------------------------
+r577307 | peterreilly | 2007-09-19 11:05:07 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java
+------------------------------------------------------------------------
+r577308 | peterreilly | 2007-09-19 11:07:35 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ProcessDestroyer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/RecorderEntry.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Redirector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Sleep.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/StreamPumper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Tar.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+------------------------------------------------------------------------
+r577364 | peterreilly | 2007-09-19 13:53:41 -0300 (Wed, 19 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParser.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/cvslib/ChangeLogTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/email/EmailTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ANTLR.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Cab.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/SchemaValidate.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetCompile.java
+------------------------------------------------------------------------
+r577684 | peterreilly | 2007-09-20 08:12:37 -0300 (Thu, 20 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jlink/ClassNameReader.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jsp/Jasper41Mangler.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jsp/JspNameMangler.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/SetProxy.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/splash/SplashTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r577765 | jhm | 2007-09-20 11:26:16 -0300 (Thu, 20 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/ProcessDestroyer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Redirector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/splash/SplashTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r577772 | jhm | 2007-09-20 11:33:40 -0300 (Thu, 20 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jsp/JspNameMangler.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/StringUtils.java
+------------------------------------------------------------------------
+r577781 | jhm | 2007-09-20 11:51:11 -0300 (Thu, 20 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/StringUtils.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/util/StringUtilsTest.java
+------------------------------------------------------------------------
+r578199 | peterreilly | 2007-09-21 13:33:43 -0300 (Fri, 21 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOS.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Quantifier.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/mappers/FilterMapper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/CompressedResource.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/DigestAlgorithm.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DOMElementWriter.java
+------------------------------------------------------------------------
+r578575 | jkf | 2007-09-23 11:55:49 -0300 (Sun, 23 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Watchdog.java
+------------------------------------------------------------------------
+r578729 | peterreilly | 2007-09-24 06:37:59 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/StringUtils.java
+------------------------------------------------------------------------
+r578730 | peterreilly | 2007-09-24 06:40:26 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Base64Converter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DateUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/LeadPipeInputStream.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/LineTokenizer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReaderInputStream.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/StringTokenizer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/UUEncoder.java
+------------------------------------------------------------------------
+r578739 | peterreilly | 2007-09-24 07:00:00 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/XMLJUnitResultFormatter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/splash/SplashScreen.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/AbstractSshMessage.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/optional/depend/ClassfileSet.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/DigestAlgorithm.java
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarInputStream.java
+------------------------------------------------------------------------
+r578769 | peterreilly | 2007-09-24 08:56:34 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/PropertyHelper.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/GetProperty.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/ParseNextProperty.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/ParseProperties.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/PropertyExpander.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/property/ResolvePropertyMap.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Property.java
+------------------------------------------------------------------------
+r578773 | jhm | 2007-09-24 09:04:43 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/optional/depend/ClassfileSet.java
+------------------------------------------------------------------------
+r578832 | jhm | 2007-09-24 11:32:37 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Rmic.java
+------------------------------------------------------------------------
+r578882 | peterreilly | 2007-09-24 14:19:44 -0300 (Mon, 24 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/build.xml
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/DDCreator.java
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/Ejbc.java
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WLRun.java
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WLStop.java
+------------------------------------------------------------------------
+r579263 | peterreilly | 2007-09-25 11:36:32 -0300 (Tue, 25 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/Watchdog.java
+------------------------------------------------------------------------
+r579266 | peterreilly | 2007-09-25 11:38:40 -0300 (Tue, 25 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessage.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessageBySftp.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessageBySftp.java
+------------------------------------------------------------------------
+r579270 | peterreilly | 2007-09-25 11:44:48 -0300 (Tue, 25 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DOMElementWriter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/RegexpPatternMapper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/depend/bcel/DependencyVisitor.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/JakartaOroRegexp.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpRegexp.java
+------------------------------------------------------------------------
+r579273 | peterreilly | 2007-09-25 11:47:57 -0300 (Tue, 25 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Rmic.java
+------------------------------------------------------------------------
+r579278 | peterreilly | 2007-09-25 11:50:09 -0300 (Tue, 25 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/mail/SmtpResponseReader.java
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarInputStream.java
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/AsiExtraField.java
+   M /ant/core/trunk/src/main/org/apache/tools/zip/ZipOutputStream.java
+------------------------------------------------------------------------
+r579316 | peterreilly | 2007-09-25 14:07:10 -0300 (Tue, 25 Sep 2007)
+Changed paths:
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/scm/AntStarTeamCheckOut.java
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/starteam
+------------------------------------------------------------------------
+r579712 | peterreilly | 2007-09-26 13:50:10 -0300 (Wed, 26 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/j2ee/WebLogicHotDeploymentTool.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jsp/WLJspc.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/DOMElementWriter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/UUEncoder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/depend/bcel/DependencyVisitor.java
+------------------------------------------------------------------------
+r579929 | jhm | 2007-09-27 04:18:20 -0300 (Thu, 27 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java
+------------------------------------------------------------------------
+r579953 | peterreilly | 2007-09-27 06:11:21 -0300 (Thu, 27 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/UUEncoder.java
+------------------------------------------------------------------------
+r579975 | peterreilly | 2007-09-27 08:05:21 -0300 (Thu, 27 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/StreamPumper.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ReaderInputStream.java
+------------------------------------------------------------------------
+r579978 | peterreilly | 2007-09-27 08:31:30 -0300 (Thu, 27 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/i18n/Translate.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessageBySftp.java
+------------------------------------------------------------------------
+r580302 | peterreilly | 2007-09-28 08:13:19 -0300 (Fri, 28 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/JavaResource.java
+------------------------------------------------------------------------
+r580348 | peterreilly | 2007-09-28 10:35:41 -0300 (Fri, 28 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/email/MimeMailer.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/jsp/WLJspc.java
+------------------------------------------------------------------------
+r580393 | peterreilly | 2007-09-28 12:47:45 -0300 (Fri, 28 Sep 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/JavaResource.java
+------------------------------------------------------------------------
+r581055 | jkf | 2007-10-01 17:07:17 -0300 (Mon, 01 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java
+------------------------------------------------------------------------
+r581076 | jglick | 2007-10-01 18:35:46 -0300 (Mon, 01 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/DefaultLogger.java
+------------------------------------------------------------------------
+r581377 | jglick | 2007-10-02 17:47:50 -0300 (Tue, 02 Oct 2007)
+Changed paths:
+   D /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/scm
+------------------------------------------------------------------------
+r581394 | jglick | 2007-10-02 18:38:20 -0300 (Tue, 02 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Union.java
+------------------------------------------------------------------------
+r581576 | kevj | 2007-10-03 08:58:38 -0300 (Wed, 03 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+------------------------------------------------------------------------
+r581587 | peterreilly | 2007-10-03 09:49:47 -0300 (Wed, 03 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/Union.java
+------------------------------------------------------------------------
+r581599 | peterreilly | 2007-10-03 10:48:26 -0300 (Wed, 03 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java
+------------------------------------------------------------------------
+r581623 | peterreilly | 2007-10-03 12:22:59 -0300 (Wed, 03 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java
+------------------------------------------------------------------------
+r581748 | jglick | 2007-10-03 20:44:10 -0300 (Wed, 03 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/DirectoryScanner.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Rmic.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ResourceUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/SourceFileScanner.java
+------------------------------------------------------------------------
+r582160 | peterreilly | 2007-10-05 06:30:14 -0300 (Fri, 05 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java
+------------------------------------------------------------------------
+r582162 | peterreilly | 2007-10-05 06:32:10 -0300 (Fri, 05 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Rmic.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/ResourceUtils.java
+------------------------------------------------------------------------
+r582364 | jglick | 2007-10-05 14:53:03 -0300 (Fri, 05 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Resource.java
+------------------------------------------------------------------------
+r582707 | kevj | 2007-10-08 01:31:23 -0300 (Mon, 08 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Javah.java
+------------------------------------------------------------------------
+r583364 | jhm | 2007-10-10 03:06:39 -0300 (Wed, 10 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java
+------------------------------------------------------------------------
+r583884 | peterreilly | 2007-10-11 14:10:16 -0300 (Thu, 11 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Javah.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/Resource.java
+------------------------------------------------------------------------
+r585106 | stevel | 2007-10-16 08:48:13 -0200 (Tue, 16 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ComponentHelper.java
+------------------------------------------------------------------------
+r585108 | stevel | 2007-10-16 08:50:59 -0200 (Tue, 16 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java
+------------------------------------------------------------------------
+r585908 | peterreilly | 2007-10-18 07:13:41 -0200 (Thu, 18 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Javah.java
+------------------------------------------------------------------------
+r587844 | jhm | 2007-10-24 08:05:46 -0200 (Wed, 24 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/build.xml
+   M /ant/core/trunk/docs/manual/OptionalTasks/junit.html
+   M /ant/core/trunk/src/etc/testcases/taskdefs/optional/junit.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskTest.java
+------------------------------------------------------------------------
+r587855 | jhm | 2007-10-24 09:26:02 -0200 (Wed, 24 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/docs/manual/CoreTasks/xmlproperty.html
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java
+------------------------------------------------------------------------
+r587863 | jhm | 2007-10-24 10:08:17 -0200 (Wed, 24 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java
+------------------------------------------------------------------------
+r587872 | jhm | 2007-10-24 10:20:01 -0200 (Wed, 24 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java
+------------------------------------------------------------------------
+r587874 | jhm | 2007-10-24 10:25:33 -0200 (Wed, 24 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java
+------------------------------------------------------------------------
+r589715 | jhm | 2007-10-29 14:19:14 -0200 (Mon, 29 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/TaskAdapter.java
+------------------------------------------------------------------------
+r589755 | stevel | 2007-10-29 15:30:28 -0200 (Mon, 29 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Parallel.java
+------------------------------------------------------------------------
+r589762 | stevel | 2007-10-29 15:40:51 -0200 (Mon, 29 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r589763 | stevel | 2007-10-29 15:41:35 -0200 (Mon, 29 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+------------------------------------------------------------------------
+r589767 | stevel | 2007-10-29 15:44:21 -0200 (Mon, 29 Oct 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/WaitFor.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/BlockFor.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/BuildTimeoutException.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java
+   A /ant/core/trunk/src/main/org/apache/tools/ant/util/WorkerAnt.java
+------------------------------------------------------------------------
+r590988 | stevel | 2007-11-01 11:00:02 -0200 (Thu, 01 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/WorkerAnt.java
+------------------------------------------------------------------------
+r590990 | stevel | 2007-11-01 11:12:49 -0200 (Thu, 01 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/WorkerAnt.java
+------------------------------------------------------------------------
+r590998 | stevel | 2007-11-01 11:29:23 -0200 (Thu, 01 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/WorkerAnt.java
+------------------------------------------------------------------------
+r591304 | stevel | 2007-11-02 09:13:39 -0200 (Fri, 02 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/SunRmic.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/WLRmic.java
+------------------------------------------------------------------------
+r591341 | mbenson | 2007-11-02 12:11:44 -0200 (Fri, 02 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/build.xml
+   M /ant/core/trunk/src/main/org/apache/tools/ant/launch/Locator.java
+------------------------------------------------------------------------
+r591425 | peterreilly | 2007-11-02 16:56:20 -0200 (Fri, 02 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/WaitFor.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/BlockFor.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/BuildTimeoutException.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/rmic/WLRmic.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/WorkerAnt.java
+------------------------------------------------------------------------
+r591427 | peterreilly | 2007-11-02 17:07:06 -0200 (Fri, 02 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/BlockFor.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java
+------------------------------------------------------------------------
+r592499 | mbenson | 2007-11-06 15:45:55 -0200 (Tue, 06 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Touch.java
+------------------------------------------------------------------------
+r592514 | mbenson | 2007-11-06 16:29:37 -0200 (Tue, 06 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Touch.java
+------------------------------------------------------------------------
+r592841 | jhm | 2007-11-07 16:23:08 -0200 (Wed, 07 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/BuildEvent.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/BuildException.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ExitException.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/ExitStatusException.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/DOMUtil.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/BuildTimeoutException.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/IdentityStack.java
+------------------------------------------------------------------------
+r593021 | kevj | 2007-11-08 03:43:14 -0200 (Thu, 08 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Retry.java
+------------------------------------------------------------------------
+r593991 | peterreilly | 2007-11-11 21:27:31 -0200 (Sun, 11 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java
+------------------------------------------------------------------------
+r594469 | kevj | 2007-11-13 08:18:24 -0200 (Tue, 13 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/TempFile.java
+------------------------------------------------------------------------
+r597084 | stevel | 2007-11-21 11:41:27 -0200 (Wed, 21 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarEntry.java
+------------------------------------------------------------------------
+r597087 | stevel | 2007-11-21 11:51:00 -0200 (Wed, 21 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarBuffer.java
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarInputStream.java
+   M /ant/core/trunk/src/main/org/apache/tools/tar/TarOutputStream.java
+------------------------------------------------------------------------
+r597397 | stevel | 2007-11-22 10:43:25 -0200 (Thu, 22 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/FixCRLF.java
+------------------------------------------------------------------------
+r597452 | stevel | 2007-11-22 15:05:51 -0200 (Thu, 22 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java
+------------------------------------------------------------------------
+r597455 | stevel | 2007-11-22 15:11:26 -0200 (Thu, 22 Nov 2007)
+Changed paths:
+   M /ant/core/trunk/WHATSNEW
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java
+------------------------------------------------------------------------
+r600702 | jglick | 2007-12-03 19:50:19 -0200 (Mon, 03 Dec 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javac.java
+------------------------------------------------------------------------
+r605926 | jhm | 2007-12-20 11:44:53 -0200 (Thu, 20 Dec 2007)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/Executor.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/BuildFileTest.java
+------------------------------------------------------------------------
+r608939 | jkf | 2008-01-04 15:45:12 -0200 (Fri, 04 Jan 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Execute.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/FixCRLF.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Javadoc.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Replace.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/TempFile.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/Zip.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/Cab.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/JavaEnvUtils.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/ExecTaskTest.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/taskdefs/JavaTest.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java
+   M /ant/core/trunk/src/tests/junit/org/apache/tools/ant/util/FileUtilsTest.java
+------------------------------------------------------------------------
+r608999 | jkf | 2008-01-04 18:48:55 -0200 (Fri, 04 Jan 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r612078 | stevel | 2008-01-15 09:03:59 -0200 (Tue, 15 Jan 2008)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/AbstractClasspathResource.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/JavaResource.java
+------------------------------------------------------------------------
+r612079 | stevel | 2008-01-15 09:06:13 -0200 (Tue, 15 Jan 2008)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/JavaConstantResource.java
+------------------------------------------------------------------------
+r612083 | stevel | 2008-01-15 09:14:52 -0200 (Tue, 15 Jan 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/defaults.properties
+------------------------------------------------------------------------
+r612091 | jhm | 2008-01-15 10:06:19 -0200 (Tue, 15 Jan 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/AbstractClasspathResource.java
+------------------------------------------------------------------------
+r612467 | stevel | 2008-01-16 12:14:59 -0200 (Wed, 16 Jan 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/FileResource.java
+------------------------------------------------------------------------
+r615452 | peterreilly | 2008-01-26 12:22:48 -0200 (Sat, 26 Jan 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/FixCRLF.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/AbstractClasspathResource.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/JavaConstantResource.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/types/resources/JavaResource.java
+   M /ant/core/trunk/src/main/org/apache/tools/ant/util/FileUtils.java
+------------------------------------------------------------------------
+r617356 | jhm | 2008-02-01 04:37:19 -0200 (Fri, 01 Feb 2008)
+Changed paths:
+   A /ant/core/trunk/src/main/org/apache/tools/ant/TaskConfigurationChecker.java
+------------------------------------------------------------------------
+r617470 | jhm | 2008-02-01 08:54:44 -0200 (Fri, 01 Feb 2008)
+Changed paths:
+   M /ant/core/trunk/src/main/org/apache/tools/ant/TaskConfigurationChecker.java
+------------------------------------------------------------------------
