@@ -1,0 +1,1953 @@
+------------------------------------------------------------------------
+r2069 | emmanuel.puybaret | 2009-06-10 19:49:47 -0300 (Qua, 10 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2070 | emmanuel.puybaret | 2009-06-15 09:13:03 -0300 (Seg, 15 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+------------------------------------------------------------------------
+r2071 | emmanuel.puybaret | 2009-06-16 10:21:06 -0300 (Ter, 16 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2072 | emmanuel.puybaret | 2009-06-19 05:45:54 -0300 (Sex, 19 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+------------------------------------------------------------------------
+r2073 | emmanuel.puybaret | 2009-06-19 11:43:15 -0300 (Sex, 19 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+------------------------------------------------------------------------
+r2074 | emmanuel.puybaret | 2009-06-20 04:12:20 -0300 (Sáb, 20 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/Home3DAttributesPanel.java
+------------------------------------------------------------------------
+r2075 | emmanuel.puybaret | 2009-06-22 05:23:32 -0300 (Seg, 22 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/MacOSXConfiguration.java
+------------------------------------------------------------------------
+r2076 | emmanuel.puybaret | 2009-06-25 14:34:26 -0300 (Qui, 25 Jun 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2077 | emmanuel.puybaret | 2009-07-01 07:05:03 -0300 (Qua, 01 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+------------------------------------------------------------------------
+r2078 | emmanuel.puybaret | 2009-07-02 05:35:32 -0300 (Qui, 02 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/RoomController.java
+------------------------------------------------------------------------
+r2079 | emmanuel.puybaret | 2009-07-02 05:38:05 -0300 (Qui, 02 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/RoomController.java
+------------------------------------------------------------------------
+r2080 | emmanuel.puybaret | 2009-07-02 05:56:09 -0300 (Qui, 02 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2081 | emmanuel.puybaret | 2009-07-06 06:09:22 -0300 (Seg, 06 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2082 | emmanuel.puybaret | 2009-07-08 13:01:57 -0300 (Qua, 08 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+------------------------------------------------------------------------
+r2083 | emmanuel.puybaret | 2009-07-08 16:50:35 -0300 (Qua, 08 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePrintableComponent.java
+------------------------------------------------------------------------
+r2084 | emmanuel.puybaret | 2009-07-08 17:18:15 -0300 (Qua, 08 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePrintableComponent.java
+------------------------------------------------------------------------
+r2085 | emmanuel.puybaret | 2009-07-08 17:59:15 -0300 (Qua, 08 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePrintableComponent.java
+------------------------------------------------------------------------
+r2086 | emmanuel.puybaret | 2009-07-09 05:04:45 -0300 (Qui, 09 Jul 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePrintableComponent.java
+------------------------------------------------------------------------
+r2087 | emmanuel.puybaret | 2009-08-06 07:14:06 -0300 (Qui, 06 Ago 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ru.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ru/index.html
+------------------------------------------------------------------------
+r2088 | emmanuel.puybaret | 2009-08-06 11:06:47 -0300 (Qui, 06 Ago 2009)
+Changed paths:
+   M /trunk/deploy/SweetHome3D.jnlp
+   M /trunk/deploy/SweetHome3DApplet.jnlp
+   M /trunk/deploy/SweetHome3DViewer.jnlp
+   M /trunk/install/windows/installerLaunch4j.xml
+------------------------------------------------------------------------
+r2089 | emmanuel.puybaret | 2009-08-06 18:09:41 -0300 (Qui, 06 Ago 2009)
+Changed paths:
+   M /trunk/install/linux/SweetHome3D
+------------------------------------------------------------------------
+r2090 | emmanuel.puybaret | 2009-08-10 07:30:47 -0300 (Seg, 10 Ago 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+------------------------------------------------------------------------
+r2091 | emmanuel.puybaret | 2009-08-11 05:17:14 -0300 (Ter, 11 Ago 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_de.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_de.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/de/savingHome.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/de/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/de/ui.html
+------------------------------------------------------------------------
+r2092 | emmanuel.puybaret | 2009-08-15 11:34:55 -0300 (Sáb, 15 Ago 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/PhotoRenderer.java
+------------------------------------------------------------------------
+r2093 | emmanuel.puybaret | 2009-08-21 03:28:09 -0300 (Sex, 21 Ago 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2094 | emmanuel.puybaret | 2009-08-29 12:08:23 -0300 (Sáb, 29 Ago 2009)
+Changed paths:
+   M /trunk/THIRDPARTY-LICENSE-TANGO.TXT
+------------------------------------------------------------------------
+r2095 | emmanuel.puybaret | 2009-09-08 12:19:48 -0300 (Ter, 08 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_pt.properties
+------------------------------------------------------------------------
+r2096 | emmanuel.puybaret | 2009-09-10 04:34:28 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Component3DManager.java
+------------------------------------------------------------------------
+r2097 | emmanuel.puybaret | 2009-09-10 05:02:46 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/PhotoRenderer.java
+------------------------------------------------------------------------
+r2098 | emmanuel.puybaret | 2009-09-10 05:17:13 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_zh_CN.properties
+------------------------------------------------------------------------
+r2099 | emmanuel.puybaret | 2009-09-10 08:44:50 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_zh_CN.properties
+------------------------------------------------------------------------
+r2100 | emmanuel.puybaret | 2009-09-10 09:13:30 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/BackgroundImageWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedTextureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_cs.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_de.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_el.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_es.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_hu.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_it.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_pl.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_pt.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ru.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_sv.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_zh_CN.properties
+------------------------------------------------------------------------
+r2101 | emmanuel.puybaret | 2009-09-10 11:00:07 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   A /trunk/src/com/eteks/sweethome3d/applet/package_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/io/ContributedFurnitureCatalog_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/model/LengthUnit_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.properties
+   A /trunk/src/com/eteks/sweethome3d/package_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/package_ja.properties
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/addingFurniture.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/addingTexts.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/creatingHome.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/drawingDimensions.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/drawingRooms.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/drawingWalls.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editing3DView.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingDimensions.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingFurniture.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingPreferences.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingRooms.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingWalls.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/addingFurniture.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/addingText.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/drawingWalls.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editing3DView.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editingFurniture.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editingPreferences.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editingRooms.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editingWalls.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/pageSetup.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/printPreview.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/importingBackground.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/importingFurniture.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/index.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/printingHome.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/savingHome.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/tips.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/tocCreating.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/tocEditing.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/tocImporting.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/tocStart.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/ui.html
+------------------------------------------------------------------------
+r2102 | emmanuel.puybaret | 2009-09-10 11:07:14 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ru/tocStart.html
+------------------------------------------------------------------------
+r2103 | emmanuel.puybaret | 2009-09-10 11:14:33 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/install/macosx/Sweet Home 3D/Contents/Info.plist
+   M /trunk/install/viewer/README.TXT
+   M /trunk/install/windows/installerInnoSetup.iss
+   M /trunk/install/windows/installerLaunch4j.xml
+   M /trunk/src/com/eteks/sweethome3d/applet/package.properties
+   M /trunk/src/com/eteks/sweethome3d/package.properties
+------------------------------------------------------------------------
+r2104 | emmanuel.puybaret | 2009-09-10 12:00:41 -0300 (Qui, 10 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/addingTexts.html
+------------------------------------------------------------------------
+r2105 | emmanuel.puybaret | 2009-09-11 13:57:46 -0300 (Sex, 11 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/addingTexts.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingPreferences.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingRooms.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingWalls.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/printingHome.html
+------------------------------------------------------------------------
+r2106 | emmanuel.puybaret | 2009-09-14 02:54:00 -0300 (Seg, 14 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editing3DView.png
+------------------------------------------------------------------------
+r2107 | emmanuel.puybaret | 2009-09-14 14:15:03 -0300 (Seg, 14 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2108 | emmanuel.puybaret | 2009-09-19 05:29:34 -0300 (Sáb, 19 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2109 | emmanuel.puybaret | 2009-09-19 19:01:38 -0300 (Sáb, 19 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2110 | emmanuel.puybaret | 2009-09-21 11:05:52 -0300 (Seg, 21 Set 2009)
+Changed paths:
+   M /trunk/deploy/SweetHome3DApplet.html
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2111 | emmanuel.puybaret | 2009-09-21 11:06:55 -0300 (Seg, 21 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2112 | emmanuel.puybaret | 2009-09-21 15:53:49 -0300 (Seg, 21 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2113 | emmanuel.puybaret | 2009-09-22 05:46:27 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog.java
+------------------------------------------------------------------------
+r2114 | emmanuel.puybaret | 2009-09-22 05:47:22 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2115 | emmanuel.puybaret | 2009-09-22 05:49:11 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2116 | emmanuel.puybaret | 2009-09-22 06:04:33 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2117 | emmanuel.puybaret | 2009-09-22 06:15:04 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2118 | emmanuel.puybaret | 2009-09-22 10:09:10 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_ja.properties
+------------------------------------------------------------------------
+r2119 | emmanuel.puybaret | 2009-09-22 12:16:58 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2120 | emmanuel.puybaret | 2009-09-22 12:35:37 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+------------------------------------------------------------------------
+r2121 | emmanuel.puybaret | 2009-09-22 14:22:38 -0300 (Ter, 22 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/images/editingFurniture.png
+------------------------------------------------------------------------
+r2122 | emmanuel.puybaret | 2009-09-23 03:37:22 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+------------------------------------------------------------------------
+r2123 | emmanuel.puybaret | 2009-09-23 06:45:24 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+------------------------------------------------------------------------
+r2124 | emmanuel.puybaret | 2009-09-23 08:20:56 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ResourceAction.java
+------------------------------------------------------------------------
+r2125 | emmanuel.puybaret | 2009-09-23 08:25:26 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2126 | emmanuel.puybaret | 2009-09-23 08:50:14 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletController.java
+   M /trunk/src/com/eteks/sweethome3d/applet/package.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_cs.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_de.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_el.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_es.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_hu.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_it.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_pl.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_pt.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_ru.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_sv.properties
+   M /trunk/src/com/eteks/sweethome3d/applet/package_zh_CN.properties
+   A /trunk/src/com/eteks/sweethome3d/applet/resources
+   A /trunk/src/com/eteks/sweethome3d/applet/resources/document-export-sh3d.png
+------------------------------------------------------------------------
+r2127 | emmanuel.puybaret | 2009-09-23 09:05:39 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_ja.properties
+------------------------------------------------------------------------
+r2128 | emmanuel.puybaret | 2009-09-23 10:02:10 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletController.java
+------------------------------------------------------------------------
+r2129 | emmanuel.puybaret | 2009-09-23 11:44:57 -0300 (Qua, 23 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_ja.properties
+------------------------------------------------------------------------
+r2130 | emmanuel.puybaret | 2009-09-24 04:26:50 -0300 (Qui, 24 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/printingHome.html
+------------------------------------------------------------------------
+r2131 | emmanuel.puybaret | 2009-09-25 10:04:03 -0300 (Sex, 25 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Object3DBranch.java
+------------------------------------------------------------------------
+r2132 | emmanuel.puybaret | 2009-09-25 10:04:44 -0300 (Sex, 25 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2133 | emmanuel.puybaret | 2009-09-25 14:01:54 -0300 (Sex, 25 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/package.properties
+------------------------------------------------------------------------
+r2134 | emmanuel.puybaret | 2009-09-26 12:27:39 -0300 (Sáb, 26 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+------------------------------------------------------------------------
+r2135 | emmanuel.puybaret | 2009-09-28 04:10:12 -0300 (Seg, 28 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletContentManager.java
+------------------------------------------------------------------------
+r2136 | emmanuel.puybaret | 2009-09-28 05:00:03 -0300 (Seg, 28 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2137 | emmanuel.puybaret | 2009-09-28 09:00:44 -0300 (Seg, 28 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+   M /trunk/src/com/eteks/sweethome3d/applet/package.properties
+   A /trunk/src/com/eteks/sweethome3d/applet/package_vi.properties
+------------------------------------------------------------------------
+r2138 | emmanuel.puybaret | 2009-09-28 09:02:42 -0300 (Seg, 28 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2139 | emmanuel.puybaret | 2009-09-28 13:00:39 -0300 (Seg, 28 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2140 | emmanuel.puybaret | 2009-09-28 13:46:43 -0300 (Seg, 28 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2141 | emmanuel.puybaret | 2009-09-29 03:56:25 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/package_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/io/ContributedFurnitureCatalog_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/model/LengthUnit_vi.properties
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.properties
+   A /trunk/src/com/eteks/sweethome3d/package_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/package_vi.properties
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/package_vi.properties
+   A /trunk/src/com/sun/swing/internal/plaf/basic/resources/basic_vi.properties
+   A /trunk/src/com/sun/swing/internal/plaf/metal/resources/metal_vi.properties
+------------------------------------------------------------------------
+r2142 | emmanuel.puybaret | 2009-09-29 03:57:36 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/package_fr.properties
+------------------------------------------------------------------------
+r2143 | emmanuel.puybaret | 2009-09-29 10:31:42 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   A /trunk/install/windows/Japanese.isl
+   M /trunk/install/windows/installerInnoSetup.iss
+------------------------------------------------------------------------
+r2144 | emmanuel.puybaret | 2009-09-29 16:08:35 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2145 | emmanuel.puybaret | 2009-09-29 16:11:07 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+------------------------------------------------------------------------
+r2146 | emmanuel.puybaret | 2009-09-29 16:14:35 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletController.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2147 | emmanuel.puybaret | 2009-09-29 16:47:19 -0300 (Ter, 29 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2148 | emmanuel.puybaret | 2009-09-30 03:31:54 -0300 (Qua, 30 Set 2009)
+Changed paths:
+   M /trunk/README.TXT
+   M /trunk/build.xml
+   M /trunk/install/macosx/Sweet Home 3D/Contents/Info.plist
+   M /trunk/install/viewer/README.TXT
+   M /trunk/install/windows/installerInnoSetup.iss
+   M /trunk/install/windows/installerLaunch4j.xml
+   M /trunk/src/com/eteks/sweethome3d/applet/package.properties
+   M /trunk/src/com/eteks/sweethome3d/package.properties
+------------------------------------------------------------------------
+r2149 | emmanuel.puybaret | 2009-09-30 04:18:56 -0300 (Qua, 30 Set 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/HomeRecorder.java
+------------------------------------------------------------------------
+r2150 | emmanuel.puybaret | 2009-09-30 07:13:02 -0300 (Qua, 30 Set 2009)
+Changed paths:
+   M /trunk/install/linux/SweetHome3D
+------------------------------------------------------------------------
+r2151 | emmanuel.puybaret | 2009-10-07 08:07:56 -0300 (Qua, 07 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/OBJLoader.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+------------------------------------------------------------------------
+r2152 | emmanuel.puybaret | 2009-10-09 05:41:41 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+------------------------------------------------------------------------
+r2153 | emmanuel.puybaret | 2009-10-09 12:01:58 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   A /trunk/src/com/eteks/sweethome3d/applet/package_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/io/ContributedFurnitureCatalog_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/model/LengthUnit_bg.properties
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.properties
+   A /trunk/src/com/eteks/sweethome3d/package_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/package_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/package_bg.properties
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/addingFurniture.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/addingTexts.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/creatingHome.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/drawingDimensions.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/drawingRooms.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/drawingWalls.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/editing3DView.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/editingDimensions.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/editingFurniture.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/editingPreferences.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/editingRooms.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/editingWalls.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/addingFurniture.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/addingText.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/drawingWalls.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/editing3DView.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/editingFurniture.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/editingPreferences.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/editingRooms.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/editingWalls.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/pageSetup.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/images/printPreview.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/importingBackground.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/importingFurniture.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/index.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/printingHome.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/savingHome.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/tips.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/tocCreating.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/tocEditing.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/tocImporting.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/tocStart.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/ui.html
+   A /trunk/src/com/sun/swing/internal/plaf/basic/resources/basic_bg.properties
+   A /trunk/src/com/sun/swing/internal/plaf/metal/resources/metal_bg.properties
+------------------------------------------------------------------------
+r2154 | emmanuel.puybaret | 2009-10-09 12:16:09 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2155 | emmanuel.puybaret | 2009-10-09 12:21:34 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/install/macosx/Sweet Home 3D/Contents/Info.plist
+   M /trunk/install/viewer/README.TXT
+   M /trunk/install/windows/installerInnoSetup.iss
+   M /trunk/install/windows/installerLaunch4j.xml
+   M /trunk/src/com/eteks/sweethome3d/applet/package.properties
+   M /trunk/src/com/eteks/sweethome3d/package.properties
+------------------------------------------------------------------------
+r2156 | emmanuel.puybaret | 2009-10-09 12:25:30 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   A /trunk/install/windows/Bulgarian.isl
+   M /trunk/install/windows/installerInnoSetup.iss
+------------------------------------------------------------------------
+r2157 | emmanuel.puybaret | 2009-10-09 15:59:10 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/addingFurniture.html
+------------------------------------------------------------------------
+r2158 | emmanuel.puybaret | 2009-10-09 18:21:42 -0300 (Sex, 09 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+------------------------------------------------------------------------
+r2159 | emmanuel.puybaret | 2009-10-11 14:09:24 -0300 (Dom, 11 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog_zh_CN.properties
+------------------------------------------------------------------------
+r2160 | emmanuel.puybaret | 2009-10-12 08:29:16 -0300 (Seg, 12 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/package_bg.properties
+------------------------------------------------------------------------
+r2161 | emmanuel.puybaret | 2009-10-12 13:04:51 -0300 (Seg, 12 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.properties
+------------------------------------------------------------------------
+r2162 | emmanuel.puybaret | 2009-10-13 12:05:03 -0300 (Ter, 13 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog_bg.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_bg.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_bg.properties
+------------------------------------------------------------------------
+r2163 | emmanuel.puybaret | 2009-10-16 11:17:23 -0300 (Sex, 16 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/PhotoRenderer.java
+------------------------------------------------------------------------
+r2164 | emmanuel.puybaret | 2009-10-19 11:47:10 -0200 (Seg, 19 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/tools/ExtensionsClassLoader.java
+------------------------------------------------------------------------
+r2165 | emmanuel.puybaret | 2009-10-19 12:47:58 -0200 (Seg, 19 Out 2009)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/deploy/SweetHome3D.jnlp
+   M /trunk/deploy/SweetHome3DApplet.jnlp
+   M /trunk/deploy/SweetHome3DViewer.jnlp
+   A /trunk/lib/linux/x64
+   A /trunk/lib/linux/x64/libj3dcore-ogl.so
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3DBootstrap.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DViewer.java
+------------------------------------------------------------------------
+r2166 | emmanuel.puybaret | 2009-10-19 13:53:17 -0200 (Seg, 19 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3DBootstrap.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DViewer.java
+------------------------------------------------------------------------
+r2167 | emmanuel.puybaret | 2009-10-23 12:31:47 -0200 (Sex, 23 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultHomeInputStream.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultHomeOutputStream.java
+   M /trunk/src/com/eteks/sweethome3d/io/FileUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+   M /trunk/src/com/eteks/sweethome3d/plugin/PluginManager.java
+   M /trunk/src/com/eteks/sweethome3d/tools/ExtensionsClassLoader.java
+   M /trunk/src/com/eteks/sweethome3d/tools/TemporaryURLContent.java
+------------------------------------------------------------------------
+r2168 | emmanuel.puybaret | 2009-10-23 14:08:17 -0200 (Sex, 23 Out 2009)
+Changed paths:
+   M /trunk/deploy/SweetHome3DApplet.html
+   D /trunk/deploy/SweetHome3DApplet.jnlp
+   M /trunk/deploy/SweetHome3DViewer.html
+   D /trunk/deploy/SweetHome3DViewer.jnlp
+   M /trunk/install/viewer/README.TXT
+------------------------------------------------------------------------
+r2169 | emmanuel.puybaret | 2009-10-26 06:30:35 -0200 (Seg, 26 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletUserPreferences.java
+------------------------------------------------------------------------
+r2170 | emmanuel.puybaret | 2009-10-26 15:38:52 -0200 (Seg, 26 Out 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2171 | emmanuel.puybaret | 2009-11-02 09:44:23 -0200 (Seg, 02 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/savingHome.html
+------------------------------------------------------------------------
+r2172 | emmanuel.puybaret | 2009-11-09 07:26:56 -0200 (Seg, 09 Nov 2009)
+Changed paths:
+   M /trunk/README.TXT
+------------------------------------------------------------------------
+r2173 | emmanuel.puybaret | 2009-11-09 10:58:35 -0200 (Seg, 09 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/MacOSXConfiguration.java
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3D.java
+------------------------------------------------------------------------
+r2174 | emmanuel.puybaret | 2009-11-10 14:55:09 -0200 (Ter, 10 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+   M /trunk/src/com/eteks/sweethome3d/model/CatalogDoorOrWindow.java
+   M /trunk/src/com/eteks/sweethome3d/model/CatalogLight.java
+   M /trunk/src/com/eteks/sweethome3d/model/CatalogPieceOfFurniture.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomePieceOfFurniture.java
+   M /trunk/src/com/eteks/sweethome3d/model/PieceOfFurniture.java
+   M /trunk/src/com/eteks/sweethome3d/swing/IconManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2175 | emmanuel.puybaret | 2009-11-11 07:18:26 -0200 (Qua, 11 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2176 | emmanuel.puybaret | 2009-11-12 12:15:28 -0200 (Qui, 12 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+------------------------------------------------------------------------
+r2177 | emmanuel.puybaret | 2009-11-12 15:10:59 -0200 (Qui, 12 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/MacOSXConfiguration.java
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3D.java
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomeApplication.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+------------------------------------------------------------------------
+r2178 | emmanuel.puybaret | 2009-11-12 21:48:05 -0200 (Qui, 12 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2179 | emmanuel.puybaret | 2009-11-12 21:51:13 -0200 (Qui, 12 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2180 | emmanuel.puybaret | 2009-11-12 22:25:42 -0200 (Qui, 12 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2181 | emmanuel.puybaret | 2009-11-13 14:47:38 -0200 (Sex, 13 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2182 | emmanuel.puybaret | 2009-11-17 06:31:48 -0200 (Ter, 17 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/HomePieceOfFurniture.java
+------------------------------------------------------------------------
+r2183 | emmanuel.puybaret | 2009-11-17 15:53:30 -0200 (Ter, 17 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/Home.java
+------------------------------------------------------------------------
+r2184 | emmanuel.puybaret | 2009-11-17 15:54:48 -0200 (Ter, 17 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/CollectionChangeSupport.java
+------------------------------------------------------------------------
+r2185 | emmanuel.puybaret | 2009-11-20 06:51:22 -0200 (Sex, 20 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Component3DManager.java
+------------------------------------------------------------------------
+r2186 | emmanuel.puybaret | 2009-11-20 11:37:04 -0200 (Sex, 20 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2187 | emmanuel.puybaret | 2009-11-20 11:38:20 -0200 (Sex, 20 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/Home.java
+------------------------------------------------------------------------
+r2188 | emmanuel.puybaret | 2009-11-20 11:43:02 -0200 (Sex, 20 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2189 | emmanuel.puybaret | 2009-11-21 16:22:38 -0200 (Sáb, 21 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+------------------------------------------------------------------------
+r2190 | emmanuel.puybaret | 2009-11-23 09:40:16 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2191 | emmanuel.puybaret | 2009-11-23 10:18:30 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2192 | emmanuel.puybaret | 2009-11-23 11:17:55 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeFurnitureController.java
+------------------------------------------------------------------------
+r2193 | emmanuel.puybaret | 2009-11-23 11:21:30 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/LabelController.java
+------------------------------------------------------------------------
+r2194 | emmanuel.puybaret | 2009-11-23 18:47:10 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/package_de.properties
+------------------------------------------------------------------------
+r2195 | emmanuel.puybaret | 2009-11-23 18:53:42 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_de.properties
+------------------------------------------------------------------------
+r2196 | emmanuel.puybaret | 2009-11-23 18:56:19 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_de.properties
+------------------------------------------------------------------------
+r2197 | emmanuel.puybaret | 2009-11-23 19:00:49 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+------------------------------------------------------------------------
+r2198 | emmanuel.puybaret | 2009-11-23 19:23:07 -0200 (Seg, 23 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_de.properties
+------------------------------------------------------------------------
+r2199 | emmanuel.puybaret | 2009-11-24 16:40:03 -0200 (Ter, 24 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2200 | emmanuel.puybaret | 2009-11-25 14:48:57 -0200 (Qua, 25 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2201 | emmanuel.puybaret | 2009-11-25 16:20:34 -0200 (Qua, 25 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3D.java
+------------------------------------------------------------------------
+r2202 | emmanuel.puybaret | 2009-11-26 12:11:59 -0200 (Qui, 26 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2203 | emmanuel.puybaret | 2009-11-26 12:59:58 -0200 (Qui, 26 Nov 2009)
+Changed paths:
+   M /trunk/build.xml
+------------------------------------------------------------------------
+r2204 | emmanuel.puybaret | 2009-11-26 14:34:50 -0200 (Qui, 26 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/HomeEnvironment.java
+------------------------------------------------------------------------
+r2205 | emmanuel.puybaret | 2009-11-27 07:28:35 -0200 (Sex, 27 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3D.java
+------------------------------------------------------------------------
+r2206 | emmanuel.puybaret | 2009-11-27 08:27:37 -0200 (Sex, 27 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2207 | emmanuel.puybaret | 2009-11-27 09:05:09 -0200 (Sex, 27 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2208 | emmanuel.puybaret | 2009-11-27 16:45:32 -0200 (Sex, 27 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2209 | emmanuel.puybaret | 2009-11-30 16:08:45 -0200 (Seg, 30 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletRecorder.java
+------------------------------------------------------------------------
+r2210 | emmanuel.puybaret | 2009-11-30 22:08:08 -0200 (Seg, 30 Nov 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2211 | emmanuel.puybaret | 2009-12-03 16:15:09 -0200 (Qui, 03 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2212 | emmanuel.puybaret | 2009-12-04 20:26:37 -0200 (Sex, 04 Dez 2009)
+Changed paths:
+   M /trunk/deploy/SweetHome3D.jnlp
+   M /trunk/deploy/SweetHome3DApplet.html
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3D.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogTree.java
+------------------------------------------------------------------------
+r2213 | emmanuel.puybaret | 2009-12-05 09:55:52 -0200 (Sáb, 05 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/FurnitureController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2214 | emmanuel.puybaret | 2009-12-05 14:27:29 -0200 (Sáb, 05 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/Home3DAttributesPanel.java
+------------------------------------------------------------------------
+r2215 | emmanuel.puybaret | 2009-12-05 16:27:39 -0200 (Sáb, 05 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/BackgroundImageWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedTextureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+   M /trunk/src/com/eteks/sweethome3d/swing/TextureChoiceComponent.java
+------------------------------------------------------------------------
+r2216 | emmanuel.puybaret | 2009-12-07 18:00:23 -0200 (Seg, 07 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/TextureChoiceComponent.java
+------------------------------------------------------------------------
+r2217 | emmanuel.puybaret | 2009-12-07 18:28:35 -0200 (Seg, 07 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PhotoPanel.java
+------------------------------------------------------------------------
+r2218 | emmanuel.puybaret | 2009-12-07 19:09:57 -0200 (Seg, 07 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PageSetupPanel.java
+------------------------------------------------------------------------
+r2219 | emmanuel.puybaret | 2009-12-08 12:21:29 -0200 (Ter, 08 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+   M /trunk/src/com/eteks/sweethome3d/swing/UserPreferencesPanel.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/UserPreferencesController.java
+------------------------------------------------------------------------
+r2220 | emmanuel.puybaret | 2009-12-10 06:53:55 -0200 (Qui, 10 Dez 2009)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/UserPreferencesPanelTest.java
+------------------------------------------------------------------------
+r2221 | emmanuel.puybaret | 2009-12-10 06:55:34 -0200 (Qui, 10 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/tools/URLContent.java
+------------------------------------------------------------------------
+r2222 | emmanuel.puybaret | 2009-12-10 10:27:54 -0200 (Qui, 10 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ScaledImageComponent.java
+------------------------------------------------------------------------
+r2223 | emmanuel.puybaret | 2009-12-10 17:39:11 -0200 (Qui, 10 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/HomeEnvironment.java
+------------------------------------------------------------------------
+r2224 | emmanuel.puybaret | 2009-12-11 13:29:37 -0200 (Sex, 11 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2225 | emmanuel.puybaret | 2009-12-11 14:03:04 -0200 (Sex, 11 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2226 | emmanuel.puybaret | 2009-12-14 18:12:50 -0200 (Seg, 14 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+------------------------------------------------------------------------
+r2227 | emmanuel.puybaret | 2009-12-20 10:06:23 -0200 (Dom, 20 Dez 2009)
+Changed paths:
+   M /trunk/.classpath
+   M /trunk/build.xml
+   M /trunk/deploy/SweetHome3D.jnlp
+   M /trunk/install/linux/SweetHome3D
+   M /trunk/install/windows/installerLaunch4j.xml
+   D /trunk/lib/iText-2.1.5.jar
+   A /trunk/lib/iText-2.1.7.jar
+------------------------------------------------------------------------
+r2228 | emmanuel.puybaret | 2009-12-21 15:20:57 -0200 (Seg, 21 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+------------------------------------------------------------------------
+r2229 | emmanuel.puybaret | 2009-12-23 07:02:24 -0200 (Qua, 23 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/Wall.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2230 | emmanuel.puybaret | 2009-12-24 13:41:34 -0200 (Qui, 24 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/TextureChoiceComponent.java
+------------------------------------------------------------------------
+r2231 | emmanuel.puybaret | 2009-12-25 14:19:51 -0200 (Sex, 25 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Wall3D.java
+------------------------------------------------------------------------
+r2232 | emmanuel.puybaret | 2009-12-26 10:27:09 -0200 (Sáb, 26 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Ground3D.java
+------------------------------------------------------------------------
+r2233 | emmanuel.puybaret | 2009-12-26 11:23:24 -0200 (Sáb, 26 Dez 2009)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/install/linux/SweetHome3D
+------------------------------------------------------------------------
+r2234 | emmanuel.puybaret | 2009-12-26 12:35:31 -0200 (Sáb, 26 Dez 2009)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/PlanComponentWithFurnitureTest.java
+------------------------------------------------------------------------
+r2235 | emmanuel.puybaret | 2009-12-26 13:11:30 -0200 (Sáb, 26 Dez 2009)
+Changed paths:
+   M /trunk/README.TXT
+------------------------------------------------------------------------
+r2236 | emmanuel.puybaret | 2009-12-27 13:47:16 -0200 (Dom, 27 Dez 2009)
+Changed paths:
+   M /trunk/install/viewer/README.TXT
+------------------------------------------------------------------------
+r2237 | emmanuel.puybaret | 2009-12-27 13:47:35 -0200 (Dom, 27 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+------------------------------------------------------------------------
+r2238 | emmanuel.puybaret | 2009-12-28 11:55:02 -0200 (Seg, 28 Dez 2009)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+------------------------------------------------------------------------
+r2239 | emmanuel.puybaret | 2010-01-01 16:16:45 -0200 (Sex, 01 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/TextureManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/IconManager.java
+------------------------------------------------------------------------
+r2240 | emmanuel.puybaret | 2010-01-01 16:36:46 -0200 (Sex, 01 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+------------------------------------------------------------------------
+r2241 | emmanuel.puybaret | 2010-01-01 20:40:37 -0200 (Sex, 01 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2242 | emmanuel.puybaret | 2010-01-07 16:17:27 -0200 (Qui, 07 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+------------------------------------------------------------------------
+r2243 | emmanuel.puybaret | 2010-01-11 07:18:56 -0200 (Seg, 11 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2244 | emmanuel.puybaret | 2010-01-11 10:22:37 -0200 (Seg, 11 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/ImportedFurnitureWizardController.java
+------------------------------------------------------------------------
+r2245 | emmanuel.puybaret | 2010-01-12 06:48:36 -0200 (Ter, 12 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ControllerAction.java
+------------------------------------------------------------------------
+r2246 | emmanuel.puybaret | 2010-01-12 07:24:28 -0200 (Ter, 12 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   A /trunk/src/com/eteks/sweethome3d/swing/UnfocusableToolBar.java
+------------------------------------------------------------------------
+r2247 | emmanuel.puybaret | 2010-01-13 14:06:28 -0200 (Qua, 13 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletContentManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/BackgroundImageWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FileContentManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedTextureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PhotoPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PrintPreviewPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ThreadedTaskPanel.java
+------------------------------------------------------------------------
+r2248 | emmanuel.puybaret | 2010-01-13 15:42:04 -0200 (Qua, 13 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/OBJLoader.java
+------------------------------------------------------------------------
+r2249 | emmanuel.puybaret | 2010-01-15 15:24:44 -0200 (Sex, 15 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Component3DManager.java
+------------------------------------------------------------------------
+r2250 | emmanuel.puybaret | 2010-01-16 09:13:11 -0200 (Sáb, 16 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Component3DManager.java
+------------------------------------------------------------------------
+r2251 | emmanuel.puybaret | 2010-01-16 13:19:25 -0200 (Sáb, 16 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+   A /trunk/src/com/eteks/sweethome3d/swing/ModelPreviewComponent.java
+------------------------------------------------------------------------
+r2252 | emmanuel.puybaret | 2010-01-16 13:47:06 -0200 (Sáb, 16 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ModelPreviewComponent.java
+------------------------------------------------------------------------
+r2253 | emmanuel.puybaret | 2010-01-16 13:49:46 -0200 (Sáb, 16 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/OBJWriter.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+------------------------------------------------------------------------
+r2254 | emmanuel.puybaret | 2010-01-16 13:50:45 -0200 (Sáb, 16 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+------------------------------------------------------------------------
+r2255 | emmanuel.puybaret | 2010-01-16 15:36:37 -0200 (Sáb, 16 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ModelPreviewComponent.java
+------------------------------------------------------------------------
+r2256 | emmanuel.puybaret | 2010-01-17 09:36:18 -0200 (Dom, 17 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ThreadedTaskPanel.java
+------------------------------------------------------------------------
+r2257 | emmanuel.puybaret | 2010-01-17 09:44:41 -0200 (Dom, 17 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ModelPreviewComponent.java
+------------------------------------------------------------------------
+r2258 | emmanuel.puybaret | 2010-01-17 19:17:18 -0200 (Dom, 17 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ModelPreviewComponent.java
+------------------------------------------------------------------------
+r2259 | emmanuel.puybaret | 2010-01-18 05:45:25 -0200 (Seg, 18 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ModelPreviewComponent.java
+------------------------------------------------------------------------
+r2260 | emmanuel.puybaret | 2010-01-18 07:00:23 -0200 (Seg, 18 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PrintPreviewPanel.java
+------------------------------------------------------------------------
+r2261 | emmanuel.puybaret | 2010-01-18 15:59:57 -0200 (Seg, 18 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2262 | emmanuel.puybaret | 2010-01-19 08:19:44 -0200 (Ter, 19 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2263 | emmanuel.puybaret | 2010-01-19 12:05:06 -0200 (Ter, 19 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2264 | emmanuel.puybaret | 2010-01-19 12:45:39 -0200 (Ter, 19 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2265 | emmanuel.puybaret | 2010-01-19 20:06:13 -0200 (Ter, 19 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2266 | emmanuel.puybaret | 2010-01-21 15:58:54 -0200 (Qui, 21 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/drawingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/drawingDimensions.html
+   M /trunk/test/com/eteks/sweethome3d/junit/PlanComponentTest.java
+------------------------------------------------------------------------
+r2267 | emmanuel.puybaret | 2010-01-22 06:36:40 -0200 (Sex, 22 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2268 | emmanuel.puybaret | 2010-01-22 06:41:55 -0200 (Sex, 22 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/LengthUnit.java
+   M /trunk/src/com/eteks/sweethome3d/model/LengthUnit.properties
+------------------------------------------------------------------------
+r2269 | emmanuel.puybaret | 2010-01-22 07:08:25 -0200 (Sex, 22 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/LengthUnit.java
+   M /trunk/src/com/eteks/sweethome3d/model/LengthUnit.properties
+------------------------------------------------------------------------
+r2270 | emmanuel.puybaret | 2010-01-22 08:58:06 -0200 (Sex, 22 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/ScaledImageComponent.java
+------------------------------------------------------------------------
+r2271 | emmanuel.puybaret | 2010-01-22 11:35:14 -0200 (Sex, 22 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController3D.java
+------------------------------------------------------------------------
+r2272 | emmanuel.puybaret | 2010-01-22 14:59:13 -0200 (Sex, 22 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2273 | emmanuel.puybaret | 2010-01-23 18:15:52 -0200 (Sáb, 23 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/LengthUnit.java
+   M /trunk/src/com/eteks/sweethome3d/model/LengthUnit.properties
+------------------------------------------------------------------------
+r2274 | emmanuel.puybaret | 2010-01-25 18:06:18 -0200 (Seg, 25 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PhotoPanel.java
+------------------------------------------------------------------------
+r2275 | emmanuel.puybaret | 2010-01-25 18:24:19 -0200 (Seg, 25 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PhotoPanel.java
+------------------------------------------------------------------------
+r2276 | emmanuel.puybaret | 2010-01-25 19:05:32 -0200 (Seg, 25 Jan 2010)
+Changed paths:
+   M /trunk/.settings/org.eclipse.jdt.core.prefs
+------------------------------------------------------------------------
+r2277 | emmanuel.puybaret | 2010-01-25 19:08:38 -0200 (Seg, 25 Jan 2010)
+Changed paths:
+   M /trunk/.classpath
+   M /trunk/THIRDPARTY-LICENSE-SUNFLOW.TXT
+   M /trunk/build.xml
+   M /trunk/deploy/SweetHome3D.jnlp
+   M /trunk/install/linux/SweetHome3D
+   M /trunk/install/macosx/Sweet Home 3D/Contents/Info.plist
+   M /trunk/install/windows/installerLaunch4j.xml
+   D /trunk/lib/sunflow-0.07.3b.jar
+   A /trunk/lib/sunflow-0.07.3c.jar
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3DBootstrap.java
+------------------------------------------------------------------------
+r2278 | emmanuel.puybaret | 2010-01-26 13:34:22 -0200 (Ter, 26 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2279 | emmanuel.puybaret | 2010-01-26 14:01:02 -0200 (Ter, 26 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_bg.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_cs.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_de.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_el.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_es.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_hu.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_it.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ja.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_pl.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_pt.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_ru.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_sv.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_vi.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_zh_CN.properties
+------------------------------------------------------------------------
+r2280 | emmanuel.puybaret | 2010-01-26 14:15:58 -0200 (Ter, 26 Jan 2010)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/install/macosx/Sweet Home 3D/Contents/Info.plist
+   M /trunk/install/viewer/README.TXT
+   M /trunk/install/windows/installerInnoSetup.iss
+   M /trunk/install/windows/installerLaunch4j.xml
+   M /trunk/src/com/eteks/sweethome3d/applet/package.properties
+   M /trunk/src/com/eteks/sweethome3d/package.properties
+------------------------------------------------------------------------
+r2281 | emmanuel.puybaret | 2010-01-27 12:29:44 -0200 (Qua, 27 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/AutoCommitSpinner.java
+   M /trunk/test/com/eteks/sweethome3d/junit/HomeFurniturePanelTest.java
+------------------------------------------------------------------------
+r2282 | emmanuel.puybaret | 2010-01-27 12:43:24 -0200 (Qua, 27 Jan 2010)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/IconManagerTest.java
+------------------------------------------------------------------------
+r2283 | emmanuel.puybaret | 2010-01-27 13:05:05 -0200 (Qua, 27 Jan 2010)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/ImportedTextureWizardTest.java
+------------------------------------------------------------------------
+r2284 | emmanuel.puybaret | 2010-01-27 13:10:24 -0200 (Qua, 27 Jan 2010)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/TestUtilities.java
+------------------------------------------------------------------------
+r2285 | emmanuel.puybaret | 2010-01-28 07:18:01 -0200 (Qui, 28 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogTree.java
+------------------------------------------------------------------------
+r2286 | emmanuel.puybaret | 2010-01-28 09:28:52 -0200 (Qui, 28 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/HomeFramePane.java
+------------------------------------------------------------------------
+r2287 | emmanuel.puybaret | 2010-01-28 11:06:53 -0200 (Qui, 28 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController3D.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/aerialView.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/virtualVisit.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/virtualVisitorIndicators.png
+------------------------------------------------------------------------
+r2288 | emmanuel.puybaret | 2010-01-28 12:40:54 -0200 (Qui, 28 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeFurniturePanel.java
+------------------------------------------------------------------------
+r2289 | emmanuel.puybaret | 2010-01-28 12:43:52 -0200 (Qui, 28 Jan 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/AutoCommitSpinner.java
+   M /trunk/src/com/eteks/sweethome3d/swing/NullableSpinner.java
+------------------------------------------------------------------------
+r2290 | emmanuel.puybaret | 2010-02-01 06:16:51 -0200 (Seg, 01 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2291 | emmanuel.puybaret | 2010-02-01 06:27:13 -0200 (Seg, 01 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/Home3DAttributesPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/NullableSpinner.java
+------------------------------------------------------------------------
+r2292 | emmanuel.puybaret | 2010-02-01 16:30:00 -0200 (Seg, 01 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/Home3DAttributesPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2293 | emmanuel.puybaret | 2010-02-02 15:38:02 -0200 (Ter, 02 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/HomeFramePane.java
+   M /trunk/src/com/eteks/sweethome3d/applet/HomeAppletController.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/view3d-attach.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/view3d-detach.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeView.java
+------------------------------------------------------------------------
+r2294 | emmanuel.puybaret | 2010-02-02 16:00:10 -0200 (Ter, 02 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2295 | emmanuel.puybaret | 2010-02-02 16:16:52 -0200 (Ter, 02 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeFurniturePanel.java
+------------------------------------------------------------------------
+r2296 | emmanuel.puybaret | 2010-02-03 14:13:51 -0200 (Qua, 03 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/tips.html
+------------------------------------------------------------------------
+r2297 | emmanuel.puybaret | 2010-02-03 14:47:16 -0200 (Qua, 03 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/cursors/panning16x16.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/cursors/panning32x32.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/plan-pan.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeView.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanView.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/ui.html
+------------------------------------------------------------------------
+r2298 | emmanuel.puybaret | 2010-02-03 14:54:23 -0200 (Qua, 03 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2299 | emmanuel.puybaret | 2010-02-03 14:56:59 -0200 (Qua, 03 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2300 | emmanuel.puybaret | 2010-02-03 16:03:36 -0200 (Qua, 03 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2301 | emmanuel.puybaret | 2010-02-05 11:36:57 -0200 (Sex, 05 Fev 2010)
+Changed paths:
+   M /trunk/lib/sunflow-0.07.3c.jar
+------------------------------------------------------------------------
+r2302 | emmanuel.puybaret | 2010-02-05 13:56:29 -0200 (Sex, 05 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/NullableSpinner.java
+------------------------------------------------------------------------
+r2303 | emmanuel.puybaret | 2010-02-06 12:47:50 -0200 (Sáb, 06 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/HomePieceOfFurniture3D.java
+   M /trunk/src/com/eteks/sweethome3d/j3d/Wall3D.java
+   M /trunk/src/com/eteks/sweethome3d/model/Home.java
+   A /trunk/src/com/eteks/sweethome3d/model/HomeFurnitureGroup.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomePieceOfFurniture.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureTable.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/groupIcon.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/FurnitureController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeView.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/addingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/addingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/tips.html
+------------------------------------------------------------------------
+r2304 | emmanuel.puybaret | 2010-02-07 11:38:44 -0200 (Dom, 07 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2305 | emmanuel.puybaret | 2010-02-07 12:45:57 -0200 (Dom, 07 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2306 | emmanuel.puybaret | 2010-02-08 10:31:32 -0200 (Seg, 08 Fev 2010)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/HomeControllerTest.java
+------------------------------------------------------------------------
+r2307 | emmanuel.puybaret | 2010-02-09 07:26:51 -0200 (Ter, 09 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2308 | emmanuel.puybaret | 2010-02-09 07:28:23 -0200 (Ter, 09 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2309 | emmanuel.puybaret | 2010-02-09 15:03:27 -0200 (Ter, 09 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/HomeFramePane.java
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/test/com/eteks/sweethome3d/junit/TransferHandlerTest.java
+------------------------------------------------------------------------
+r2310 | emmanuel.puybaret | 2010-02-09 15:27:20 -0200 (Ter, 09 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+------------------------------------------------------------------------
+r2311 | emmanuel.puybaret | 2010-02-10 13:09:01 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2312 | emmanuel.puybaret | 2010-02-10 13:12:25 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences.properties
+   M /trunk/src/com/eteks/sweethome3d/io/FileUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.java
+   A /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingViewFactory.java
+   M /trunk/src/com/eteks/sweethome3d/swing/UserPreferencesPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/FurnitureCatalogController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/UserPreferencesController.java
+------------------------------------------------------------------------
+r2313 | emmanuel.puybaret | 2010-02-10 13:14:50 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2314 | emmanuel.puybaret | 2010-02-10 13:35:34 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2315 | emmanuel.puybaret | 2010-02-10 13:40:49 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingViewFactory.java
+------------------------------------------------------------------------
+r2316 | emmanuel.puybaret | 2010-02-10 13:43:56 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/UserPreferencesPanelTest.java
+------------------------------------------------------------------------
+r2317 | emmanuel.puybaret | 2010-02-10 13:59:10 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2318 | emmanuel.puybaret | 2010-02-10 14:04:00 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/test/com/eteks/sweethome3d/junit/HomeControllerTest.java
+   M /trunk/test/com/eteks/sweethome3d/junit/TransferHandlerTest.java
+------------------------------------------------------------------------
+r2319 | emmanuel.puybaret | 2010-02-10 14:09:44 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2320 | emmanuel.puybaret | 2010-02-10 14:43:51 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2321 | emmanuel.puybaret | 2010-02-10 14:45:14 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2322 | emmanuel.puybaret | 2010-02-10 14:51:26 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+------------------------------------------------------------------------
+r2323 | emmanuel.puybaret | 2010-02-10 15:15:33 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+   M /trunk/src/com/eteks/sweethome3d/swing/TextureChoiceComponent.java
+------------------------------------------------------------------------
+r2324 | emmanuel.puybaret | 2010-02-10 15:35:36 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2325 | emmanuel.puybaret | 2010-02-10 15:41:51 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2326 | emmanuel.puybaret | 2010-02-10 15:56:09 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureTable.java
+------------------------------------------------------------------------
+r2327 | emmanuel.puybaret | 2010-02-10 16:16:35 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2328 | emmanuel.puybaret | 2010-02-10 16:32:18 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2329 | emmanuel.puybaret | 2010-02-10 16:54:18 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2330 | emmanuel.puybaret | 2010-02-10 17:22:41 -0200 (Qua, 10 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogTree.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2331 | emmanuel.puybaret | 2010-02-11 06:51:46 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/OBJLoader.java
+------------------------------------------------------------------------
+r2332 | emmanuel.puybaret | 2010-02-11 14:10:49 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2333 | emmanuel.puybaret | 2010-02-11 14:11:44 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences.properties
+   M /trunk/src/com/eteks/sweethome3d/io/FileUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/UserPreferencesPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/go-down-small.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/go-up-small.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/UserPreferencesController.java
+------------------------------------------------------------------------
+r2334 | emmanuel.puybaret | 2010-02-11 15:27:46 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+------------------------------------------------------------------------
+r2335 | emmanuel.puybaret | 2010-02-11 15:34:39 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingTools.java
+------------------------------------------------------------------------
+r2336 | emmanuel.puybaret | 2010-02-11 15:42:42 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/Home3DAttributesPanel.java
+------------------------------------------------------------------------
+r2337 | emmanuel.puybaret | 2010-02-11 15:44:25 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/Home3DAttributesPanel.java
+------------------------------------------------------------------------
+r2338 | emmanuel.puybaret | 2010-02-11 17:06:38 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2339 | emmanuel.puybaret | 2010-02-11 20:06:35 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2340 | emmanuel.puybaret | 2010-02-11 20:20:07 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2341 | emmanuel.puybaret | 2010-02-11 20:44:58 -0200 (Qui, 11 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2342 | emmanuel.puybaret | 2010-02-12 06:11:00 -0200 (Sex, 12 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2343 | emmanuel.puybaret | 2010-02-12 06:11:54 -0200 (Sex, 12 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeFurniturePanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedFurnitureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/ImportedTextureWizardStepsPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/LabelPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PageSetupPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/RoomPanel.java
+------------------------------------------------------------------------
+r2344 | emmanuel.puybaret | 2010-02-12 06:56:03 -0200 (Sex, 12 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/UserPreferencesPanel.java
+------------------------------------------------------------------------
+r2345 | emmanuel.puybaret | 2010-02-12 07:26:22 -0200 (Sex, 12 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2346 | emmanuel.puybaret | 2010-02-12 14:57:13 -0200 (Sex, 12 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2347 | emmanuel.puybaret | 2010-02-12 15:35:12 -0200 (Sex, 12 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/cs/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/de/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/el/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/addingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/drawingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/drawingRooms.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/drawingWalls.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingPreferences.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingRooms.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingWalls.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/images/editingPreferences.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/es/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/addingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/drawingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/drawingRooms.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/drawingWalls.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingPreferences.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingRooms.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingWalls.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/images/editingPreferences.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/hu/ui.html
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/3DNavigationPanel.png
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/sweethome3dVirtualVisit.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/sweethome3dZones.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/it/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pl/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pt/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ru/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/sv/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/zh_CN/ui.html
+------------------------------------------------------------------------
+r2348 | emmanuel.puybaret | 2010-02-14 06:55:54 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2349 | emmanuel.puybaret | 2010-02-14 10:06:26 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2350 | emmanuel.puybaret | 2010-02-14 11:30:16 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureCatalogListPanel.java
+------------------------------------------------------------------------
+r2351 | emmanuel.puybaret | 2010-02-14 11:56:31 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2352 | emmanuel.puybaret | 2010-02-14 12:04:17 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2353 | emmanuel.puybaret | 2010-02-14 12:23:00 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2354 | emmanuel.puybaret | 2010-02-14 12:26:20 -0200 (Dom, 14 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2355 | emmanuel.puybaret | 2010-02-15 06:59:25 -0200 (Seg, 15 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/HomeFileRecorder.java
+------------------------------------------------------------------------
+r2356 | emmanuel.puybaret | 2010-02-15 13:31:46 -0200 (Seg, 15 Fev 2010)
+Changed paths:
+   M /trunk/lib/sunflow-0.07.3c.jar
+   M /trunk/src/com/eteks/sweethome3d/j3d/PhotoRenderer.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PhotoPanel.java
+------------------------------------------------------------------------
+r2357 | emmanuel.puybaret | 2010-02-19 06:30:04 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/.classpath
+   A /trunk/THIRDPARTY-LICENSE-JMF.HTML
+   M /trunk/build.xml
+   M /trunk/deploy/SweetHome3D.jnlp
+   A /trunk/lib/jmf.jar
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3DBootstrap.java
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletApplication.java
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DApplet.java
+   M /trunk/src/com/eteks/sweethome3d/applet/ViewerHelper.java
+   M /trunk/src/com/eteks/sweethome3d/model/Camera.java
+   M /trunk/src/com/eteks/sweethome3d/model/Home.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomeEnvironment.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FileContentManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   A /trunk/src/com/eteks/sweethome3d/swing/JPEGImagesToVideo.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PhotoPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/swing/SwingViewFactory.java
+   A /trunk/src/com/eteks/sweethome3d/swing/VideoPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/camera-video.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/delete-camera-path.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/delete-last-record.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-playback-pause.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-playback-start.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-record.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-seek-backward.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-seek-forward.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-skip-backward.png
+   A /trunk/src/com/eteks/sweethome3d/swing/resources/icons/tango/media-skip-forward.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/ContentManager.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeView.java
+   A /trunk/src/com/eteks/sweethome3d/viewcontroller/VideoController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/ViewFactory.java
+   M /trunk/test/com/eteks/sweethome3d/junit/PackageDependenciesTest.java
+------------------------------------------------------------------------
+r2358 | emmanuel.puybaret | 2010-02-19 07:09:36 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/VideoPanel.java
+------------------------------------------------------------------------
+r2359 | emmanuel.puybaret | 2010-02-19 07:45:02 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/THIRDPARTY-LICENSE-SUNFLOW.TXT
+   A /trunk/sunflow-0.07.3c-src-diff.zip
+------------------------------------------------------------------------
+r2360 | emmanuel.puybaret | 2010-02-19 09:19:59 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2361 | emmanuel.puybaret | 2010-02-19 09:20:26 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2362 | emmanuel.puybaret | 2010-02-19 09:27:38 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2363 | emmanuel.puybaret | 2010-02-19 09:34:33 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/VideoPanel.java
+------------------------------------------------------------------------
+r2364 | emmanuel.puybaret | 2010-02-19 15:38:38 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/build.xml
+------------------------------------------------------------------------
+r2365 | emmanuel.puybaret | 2010-02-19 19:17:26 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Wall3D.java
+------------------------------------------------------------------------
+r2366 | emmanuel.puybaret | 2010-02-19 20:36:38 -0200 (Sex, 19 Fev 2010)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/deploy/SweetHome3DViewer.html
+   M /trunk/install/viewer/README.TXT
+   M /trunk/src/com/eteks/sweethome3d/applet/SweetHome3DViewer.java
+   M /trunk/src/com/eteks/sweethome3d/applet/ViewerHelper.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2367 | emmanuel.puybaret | 2010-02-20 06:09:12 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/build.xml
+   M /trunk/install/linux/SweetHome3D
+   M /trunk/install/windows/installerLaunch4j.xml
+------------------------------------------------------------------------
+r2368 | emmanuel.puybaret | 2010-02-20 06:40:46 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/lib/jmf.jar
+------------------------------------------------------------------------
+r2369 | emmanuel.puybaret | 2010-02-20 06:42:38 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/build.xml
+------------------------------------------------------------------------
+r2370 | emmanuel.puybaret | 2010-02-20 07:04:29 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+------------------------------------------------------------------------
+r2371 | emmanuel.puybaret | 2010-02-20 07:59:12 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/VideoPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2372 | emmanuel.puybaret | 2010-02-20 08:08:22 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/VideoPanel.java
+------------------------------------------------------------------------
+r2373 | emmanuel.puybaret | 2010-02-20 09:14:41 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2374 | emmanuel.puybaret | 2010-02-20 13:31:57 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+------------------------------------------------------------------------
+r2375 | emmanuel.puybaret | 2010-02-20 13:51:31 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/Wall3D.java
+------------------------------------------------------------------------
+r2376 | emmanuel.puybaret | 2010-02-20 14:54:32 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+------------------------------------------------------------------------
+r2377 | emmanuel.puybaret | 2010-02-20 15:07:32 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/WallPanel.java
+------------------------------------------------------------------------
+r2378 | emmanuel.puybaret | 2010-02-20 20:11:18 -0200 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/RoomPanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/WallPanel.java
+------------------------------------------------------------------------
+r2379 | emmanuel.puybaret | 2010-02-20 23:08:07 -0300 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/HomePieceOfFurniture3D.java
+   M /trunk/src/com/eteks/sweethome3d/j3d/OBJWriter.java
+   M /trunk/src/com/eteks/sweethome3d/j3d/PhotoRenderer.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomeFurnitureGroup.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomePieceOfFurniture.java
+   M /trunk/src/com/eteks/sweethome3d/model/HomeTexture.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureTable.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeComponent3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeFurniturePanel.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/FurnitureController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeFurnitureController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeView.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/images/editingFurniture.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/images/editingFurniture.png
+   M /trunk/test/com/eteks/sweethome3d/junit/HomeFurniturePanelTest.java
+   M /trunk/test/com/eteks/sweethome3d/junit/UserPreferencesPanelTest.java
+------------------------------------------------------------------------
+r2380 | emmanuel.puybaret | 2010-02-20 23:59:03 -0300 (Sáb, 20 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/resources/box.obj
+------------------------------------------------------------------------
+r2381 | emmanuel.puybaret | 2010-02-21 07:24:18 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomeFurniturePanel.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeFurnitureController.java
+------------------------------------------------------------------------
+r2382 | emmanuel.puybaret | 2010-02-21 07:29:36 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/FurnitureTable.java
+------------------------------------------------------------------------
+r2383 | emmanuel.puybaret | 2010-02-21 17:25:24 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/deploy/SweetHome3DApplet.html
+   M /trunk/deploy/SweetHome3DViewer.html
+------------------------------------------------------------------------
+r2384 | emmanuel.puybaret | 2010-02-21 18:25:13 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/TextureChoiceComponent.java
+------------------------------------------------------------------------
+r2385 | emmanuel.puybaret | 2010-02-21 19:07:31 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2386 | emmanuel.puybaret | 2010-02-21 19:27:02 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2387 | emmanuel.puybaret | 2010-02-21 19:43:19 -0300 (Dom, 21 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2388 | emmanuel.puybaret | 2010-02-22 08:47:54 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/resources/box.obj
+------------------------------------------------------------------------
+r2389 | emmanuel.puybaret | 2010-02-22 11:03:15 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/resources/cylinder.obj
+------------------------------------------------------------------------
+r2390 | emmanuel.puybaret | 2010-02-22 13:04:04 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2391 | emmanuel.puybaret | 2010-02-22 13:22:21 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/HomePieceOfFurniture3D.java
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2392 | emmanuel.puybaret | 2010-02-22 15:26:07 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/model/HomeFurnitureGroup.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeFurnitureController.java
+------------------------------------------------------------------------
+r2393 | emmanuel.puybaret | 2010-02-22 15:47:22 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+------------------------------------------------------------------------
+r2394 | emmanuel.puybaret | 2010-02-22 17:38:04 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/deploy/SweetHome3D.jnlp
+   M /trunk/install/macosx/Sweet Home 3D/Contents/Info.plist
+   M /trunk/install/windows/installerInnoSetup.iss
+   M /trunk/src/com/eteks/sweethome3d/SweetHome3D.java
+   M /trunk/src/com/eteks/sweethome3d/applet/AppletUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/applet/ViewerHelper.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultFurnitureCatalog.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog.java
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/io/FileUserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/model/UserPreferences.java
+   M /trunk/src/com/eteks/sweethome3d/swing/FileContentManager.java
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/ContentManager.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/HomeView.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_fr.properties
+------------------------------------------------------------------------
+r2395 | emmanuel.puybaret | 2010-02-22 18:20:30 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog.java
+   M /trunk/src/com/eteks/sweethome3d/model/CatalogTexture.java
+------------------------------------------------------------------------
+r2396 | emmanuel.puybaret | 2010-02-22 19:26:39 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/io/DefaultTexturesCatalog.java
+------------------------------------------------------------------------
+r2397 | emmanuel.puybaret | 2010-02-22 21:54:31 -0300 (Seg, 22 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2398 | emmanuel.puybaret | 2010-02-23 05:47:31 -0300 (Ter, 23 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/HomePane.java
+------------------------------------------------------------------------
+r2399 | emmanuel.puybaret | 2010-02-23 15:34:20 -0300 (Ter, 23 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2400 | emmanuel.puybaret | 2010-02-23 15:35:20 -0300 (Ter, 23 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/PlanController.java
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/drawingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/drawingDimensions.html
+------------------------------------------------------------------------
+r2401 | emmanuel.puybaret | 2010-02-23 17:03:05 -0300 (Ter, 23 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/bg/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/cs/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/de/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/el/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/es/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/hu/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/sweethome3dVirtualVisit.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/sweethome3dZones.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/it/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ja/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pl/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pt/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/ru/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/sv/ui.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/zh_CN/ui.html
+------------------------------------------------------------------------
+r2402 | emmanuel.puybaret | 2010-02-24 08:44:01 -0300 (Qua, 24 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/PhotoRenderer.java
+   M /trunk/src/com/eteks/sweethome3d/swing/VideoPanel.java
+------------------------------------------------------------------------
+r2403 | emmanuel.puybaret | 2010-02-24 08:44:43 -0300 (Qua, 24 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/savingHome.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/tips.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/savingHome.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/tips.html
+------------------------------------------------------------------------
+r2404 | emmanuel.puybaret | 2010-02-24 11:28:49 -0300 (Qua, 24 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/addingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/drawingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editingRooms.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/addingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/drawingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editing3DView.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingDimensions.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/fr/editingRooms.html
+------------------------------------------------------------------------
+r2405 | emmanuel.puybaret | 2010-02-24 13:56:32 -0300 (Qua, 24 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package.properties
+------------------------------------------------------------------------
+r2406 | emmanuel.puybaret | 2010-02-24 21:49:03 -0300 (Qua, 24 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/j3d/ModelManager.java
+------------------------------------------------------------------------
+r2407 | emmanuel.puybaret | 2010-02-25 14:05:10 -0300 (Qui, 25 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/PlanComponent.java
+------------------------------------------------------------------------
+r2408 | emmanuel.puybaret | 2010-02-25 15:15:51 -0300 (Qui, 25 Fev 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+------------------------------------------------------------------------
+r2409 | emmanuel.puybaret | 2010-03-07 05:40:32 -0300 (Dom, 07 Mar 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package_pt.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/package_pt.properties
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pt/editingFurniture.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pt/editingPreferences.html
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pt/images/editingFurniture.png
+   M /trunk/src/com/eteks/sweethome3d/viewcontroller/resources/help/pt/images/editingPreferences.png
+------------------------------------------------------------------------
+r2410 | emmanuel.puybaret | 2010-03-07 06:08:24 -0300 (Dom, 07 Mar 2010)
+Changed paths:
+   M /trunk/src/com/eteks/sweethome3d/swing/package.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_fr.properties
+   M /trunk/src/com/eteks/sweethome3d/swing/package_pt.properties
+------------------------------------------------------------------------

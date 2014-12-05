@@ -8,8 +8,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.List;
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -23,6 +25,7 @@ public class SVNLogReader
 	String m_file_path;
 	SortedMap<Integer, Set<SVNTuple>> m_changes;
 	Map<String, Map<String, TupleInfo>> m_common_percentage;
+	Set<String> m_classes_with_violations;
 	
 	public SVNLogReader(String file)
 	{
@@ -31,24 +34,28 @@ public class SVNLogReader
 		m_common_percentage = new HashMap<String, Map<String, TupleInfo>>(); 
 	}
 	
+	public void set_classes_with_violations(Map<String, List<ViolationInfo>> classes)
+	{
+		m_classes_with_violations = new TreeSet<String>();
+		for(Entry<String, List<ViolationInfo>> entry : classes.entrySet())
+		{
+			for(ViolationInfo viol : entry.getValue())
+			{
+				if(viol.m_origin_class.equals("null") || viol.m_destiny_class.equals("null"))
+					continue;
+				String l_class_path1 = Main.CONVERSION_PREFIX + viol.m_origin_class.replaceAll("\\.", "/") + ".java";
+				String l_class_path2 = Main.CONVERSION_PREFIX + viol.m_destiny_class.replaceAll("\\.", "/") + ".java";
+				
+				if(!m_classes_with_violations.contains(l_class_path1))
+					m_classes_with_violations.add(l_class_path1);
+				if(!m_classes_with_violations.contains(l_class_path2))
+					m_classes_with_violations.add(l_class_path2);
+			}
+		}
+	}
+	
 	public void read_file()
 	{
-		/*r39 | carlos.sabino | 2012-11-09 13:47:47 -0200 (Fri, 09 Nov 2012)
-Changed paths:
-   A /trunk/api
-   A /trunk/cmp_maintenance
-   A /trunk/components
-   A /trunk/components/connectors
-   A /trunk/components/fast_decoder
-   A /trunk/components/server
-   A /trunk/components/utils
-   A /trunk/front
-   A /trunk/proxy
-   A /trunk/proxy/main
-   A /trunk/proxy/recovery
-   A /trunk/referee
-   A /trunk/service_bus
-*/
 		int l_current_version = 0;
 		try {
 			String l_current_line = null;
@@ -213,16 +220,50 @@ Changed paths:
 			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
 					new OutputStreamWriter(l_output_stream));
 			
-			l_bufferBufferedWriter.write("Class;Co-change-class;Comon-percentage;Common-count;Total(Class)\n"); 
+			l_bufferBufferedWriter.write("Class;Co-change-class;Violation;Comon-percentage;Common-count;Total(Class)\n"); 
+			
+			Map<String, Set<String>> l_alreay_written = new TreeMap<String, Set<String>>();
+			
 
 			for(Entry<String, Map<String, TupleInfo>> entry : m_common_percentage.entrySet())
 			{
 				for(Entry<String, TupleInfo> sub_entry : entry.getValue().entrySet())
 				{
-					if(sub_entry.getValue().m_common_modified_count > 3)
+					if(sub_entry.getValue().m_common_modified_count >= Main.CO_CHANGES_NUMBER)
 					{
-						l_bufferBufferedWriter.write(entry.getKey() + ";" + sub_entry.getKey() + ";" + sub_entry.getValue().m_percentage + ";" +
-								sub_entry.getValue().m_common_modified_count + ";" + sub_entry.getValue().m_total_modified_count + "\n");
+						String l_marked = "";
+						if(m_classes_with_violations.contains(entry.getKey()) ||
+								m_classes_with_violations.contains(sub_entry.getKey()))
+							l_marked = "1";
+						else
+							l_marked = "0";
+						
+						boolean l_write = true;
+						if(l_alreay_written.containsKey(entry.getKey()))
+						{
+							Set<String> l_aux_list = l_alreay_written.get(entry.getKey());
+							if(!l_aux_list.contains(entry.getKey()))
+								l_aux_list.add(entry.getKey());
+							else
+								l_write = false;
+						}
+						else
+						{
+							Set<String> l_aux_list = new TreeSet<String>();
+							l_aux_list.add(sub_entry.getKey());
+							l_alreay_written.put(entry.getKey(), l_aux_list);
+							if(l_alreay_written.containsKey(sub_entry.getKey()))
+							{
+								l_aux_list = l_alreay_written.get(sub_entry.getKey());
+								if(!l_aux_list.contains(entry.getKey()))
+										l_aux_list.add(entry.getKey());
+								else
+									l_write = false;
+							}
+						}
+						if(l_write)
+							l_bufferBufferedWriter.write(entry.getKey() + ";" + sub_entry.getKey() + ";" + l_marked + ";" + sub_entry.getValue().m_percentage + ";" +
+									sub_entry.getValue().m_common_modified_count + ";" + sub_entry.getValue().m_total_modified_count + "\n");
 					}
 				}
 			}

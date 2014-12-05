@@ -37,6 +37,11 @@ public class ViolationsManager {
 			m_info.put(version, new LinkedList<ViolationInfo>());
 		m_info.get(version).add(info);
 	}
+	
+	public Map<String, List<ViolationInfo>> get_violations()
+	{
+		return m_info;
+	}
 
 	public void write_transactions() {
 		FileOutputStream l_output_stream;
