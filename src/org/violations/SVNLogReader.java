@@ -262,8 +262,12 @@ public class SVNLogReader
 							}
 						}
 						if(l_write)
+						{
+							if(!entry.getKey().contains("test") && !entry.getKey().contains("Test")
+									&& !sub_entry.getKey().contains("test") && !sub_entry.getKey().contains("Test"))
 							l_bufferBufferedWriter.write(entry.getKey() + ";" + sub_entry.getKey() + ";" + l_marked + ";" + sub_entry.getValue().m_percentage + ";" +
 									sub_entry.getValue().m_common_modified_count + ";" + sub_entry.getValue().m_total_modified_count + "\n");
+						}
 					}
 				}
 			}

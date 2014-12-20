@@ -5,19 +5,19 @@ import java.io.File;
 public class Main {
 
 	public final static String PATH_PREFIX = ""; 
-	public final static int CO_CHANGES_NUMBER = 2; 
+	public final static int CO_CHANGES_NUMBER = 1; 
 //	public final static String CONVERSION_PREFIX = "/ant/core/trunk/src/main/";
 //	public final static String CONVERSION_PREFIX = "/trunk/src_new/";
 //	public final static String CONVERSION_PREFIX = "/trunk/src/";
-	public final static String CONVERSION_PREFIX = "/lucene/dev/trunk/solr/src/java/";
+	public final static String CONVERSION_PREFIX = "/lucene/dev/trunk/lucene/src/java/";
 
 	public static void main(String[] args) {
 		ViolationsManager l_manager = new ViolationsManager();
 
 //		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/ant_violations/");
 //		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/argouml_violations/");
-//		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/lucene_violations/");
-		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/sweethome3d_violations/");
+		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/lucene_violations/");
+//		File folder = new File(PATH_PREFIX + "/ArchitectureViolationsMiner/trunk/data/violations/sweethome3d_violations/");
 		File[] listOfFiles = folder.listFiles();
 
 		int i = 1;
