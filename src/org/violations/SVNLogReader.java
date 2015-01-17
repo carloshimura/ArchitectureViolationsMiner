@@ -8,7 +8,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.List;
@@ -26,12 +25,14 @@ public class SVNLogReader
 	SortedMap<Integer, Set<SVNTuple>> m_changes;
 	Map<String, Map<String, TupleInfo>> m_common_percentage;
 	Set<String> m_classes_with_violations;
+	Set<String> m_classes_in_cochanges;
 	
 	public SVNLogReader(String file)
 	{
 		m_file_path = file;
 		m_changes = new TreeMap<Integer, Set<SVNTuple>>();
 		m_common_percentage = new HashMap<String, Map<String, TupleInfo>>(); 
+		m_classes_in_cochanges = new TreeSet<String>();
 	}
 	
 	public void set_classes_with_violations(Map<String, List<ViolationInfo>> classes)
@@ -231,6 +232,8 @@ public class SVNLogReader
 				{
 					if(sub_entry.getValue().m_common_modified_count >= Main.CO_CHANGES_NUMBER)
 					{
+						m_classes_in_cochanges.add(entry.getKey());
+						m_classes_in_cochanges.add(sub_entry.getKey());
 						String l_marked = "";
 						if(m_classes_with_violations.contains(entry.getKey()) ||
 								m_classes_with_violations.contains(sub_entry.getKey()))
@@ -270,6 +273,35 @@ public class SVNLogReader
 						}
 					}
 				}
+			}
+			
+			l_bufferBufferedWriter.close();
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		FileOutputStream l_classes_output_stream;
+		try {
+			l_classes_output_stream = new FileOutputStream(
+					"/ArchitectureViolationsMiner/trunk/data/results/classes_result.csv");
+			BufferedWriter l_bufferBufferedWriter = new BufferedWriter(
+					new OutputStreamWriter(l_classes_output_stream));
+			
+			l_bufferBufferedWriter.write("Class(" + m_classes_with_violations.size() + ");Is_violated\n"); 
+			
+			for(String l_class : m_classes_in_cochanges)
+			{
+				l_bufferBufferedWriter.write(l_class + ";"); 
+				if(m_classes_with_violations.contains(l_class))
+					l_bufferBufferedWriter.write("1\n");
+				else
+					l_bufferBufferedWriter.write("0\n");
+				
 			}
 			
 			l_bufferBufferedWriter.close();
