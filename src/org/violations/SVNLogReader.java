@@ -8,6 +8,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.List;
@@ -26,6 +27,8 @@ public class SVNLogReader
 	Map<String, Map<String, TupleInfo>> m_common_percentage;
 	Set<String> m_classes_with_violations;
 	Set<String> m_classes_in_cochanges;
+	List<ClassPair> m_violation_pairs;
+	List<ClassPair> m_svn_pairs;
 	
 	public SVNLogReader(String file)
 	{
@@ -33,6 +36,8 @@ public class SVNLogReader
 		m_changes = new TreeMap<Integer, Set<SVNTuple>>();
 		m_common_percentage = new HashMap<String, Map<String, TupleInfo>>(); 
 		m_classes_in_cochanges = new TreeSet<String>();
+		m_violation_pairs = new LinkedList<ClassPair>();
+		m_svn_pairs = new LinkedList<ClassPair>();
 	}
 	
 	public void set_classes_with_violations(Map<String, List<ViolationInfo>> classes)
@@ -51,6 +56,21 @@ public class SVNLogReader
 					m_classes_with_violations.add(l_class_path1);
 				if(!m_classes_with_violations.contains(l_class_path2))
 					m_classes_with_violations.add(l_class_path2);
+				
+				boolean l_found = false;
+				ClassPair l_new_pair = new ClassPair(l_class_path1, l_class_path2);
+				for(ClassPair cp : m_violation_pairs)
+				{
+					if(l_new_pair.equals(cp)){
+						l_found = true;
+						break;
+					}
+				}
+				
+				if(!l_found)
+				{
+					m_violation_pairs.add(l_new_pair);
+				}
 			}
 		}
 	}
@@ -234,6 +254,22 @@ public class SVNLogReader
 					{
 						m_classes_in_cochanges.add(entry.getKey());
 						m_classes_in_cochanges.add(sub_entry.getKey());
+						
+						boolean l_found = false;
+						ClassPair l_new_pair = new ClassPair(entry.getKey(), sub_entry.getKey());
+						for(ClassPair cp : m_svn_pairs)
+						{
+							if(l_new_pair.equals(cp)){
+								l_found = true;
+								break;
+							}
+						}
+						
+						if(!l_found)
+						{
+							m_svn_pairs.add(l_new_pair);
+						}
+						
 						String l_marked = "";
 						if(m_classes_with_violations.contains(entry.getKey()) ||
 								m_classes_with_violations.contains(sub_entry.getKey()))
@@ -268,8 +304,10 @@ public class SVNLogReader
 						{
 							if(!entry.getKey().contains("test") && !entry.getKey().contains("Test")
 									&& !sub_entry.getKey().contains("test") && !sub_entry.getKey().contains("Test"))
-							l_bufferBufferedWriter.write(entry.getKey() + ";" + sub_entry.getKey() + ";" + l_marked + ";" + sub_entry.getValue().m_percentage + ";" +
-									sub_entry.getValue().m_common_modified_count + ";" + sub_entry.getValue().m_total_modified_count + "\n");
+							{
+								l_bufferBufferedWriter.write(entry.getKey() + ";" + sub_entry.getKey() + ";" + l_marked + ";" + sub_entry.getValue().m_percentage + ";" +
+										sub_entry.getValue().m_common_modified_count + ";" + sub_entry.getValue().m_total_modified_count + "\n");
+							}
 						}
 					}
 				}
